@@ -1,0 +1,317 @@
+[
+  {
+    "term": "Battery",
+    "definition": "Battery terdiri dari plat positif PbO2 dan plat negatif Pb. Saat diisi elektrolit H2SO4 terjadi reaksi kimia menghasilkan arus listrik. Terminal + dan - dihubungkan dengan sistem kelistrikan sebagai sumber tenaga.",
+    "category": "Electric"
+  },
+  {
+    "term": "Wiring Harness",
+    "definition": "Rangkaian kabel penghubung komponen sistem elektrik (starting, charging, monitor, lighting, control). Diameter sesuai arus, kabel dibedakan warna/nomor untuk memudahkan tracing.",
+    "category": "Electric"
+  },
+  {
+    "term": "Starting Switch",
+    "definition": "Switch manual untuk posisi ON, Start, Preheat, OFF. Mengalirkan arus ke relay utama (battery relay, safety relay) agar sistem kelistrikan unit aktif.",
+    "category": "Electric"
+  },
+  {
+    "term": "Battery Relay",
+    "definition": "Relay dengan main coil yang menghubungkan terminal battery dengan sistem kelistrikan saat starting switch ON.",
+    "category": "Electric"
+  },
+  {
+    "term": "Safety Relay",
+    "definition": "Relay dengan 5 terminal (B, C, S, A, E) dipasang antara starting switch dan starting motor. Memutus otomatis saat engine hidup dan alternator bekerja.",
+    "category": "Electric"
+  },
+  {
+    "term": "Alternator",
+    "definition": "Komponen elektrik yang mengubah tenaga mekanis menjadi listrik DC untuk mengisi battery. Dipasang di engine dan digerakkan V-belt.",
+    "category": "Electric"
+  },
+  {
+    "term": "Starting Motor",
+    "definition": "Motor listrik dipasang di flywheel engine, berfungsi mengubah energi listrik menjadi mekanis untuk menghidupkan engine.",
+    "category": "Electric"
+  },
+  {
+    "term": "Fusible Link",
+    "definition": "Fuse kapasitas besar (30–100A) antara battery relay dan fuse box, melindungi battery dari short circuit.",
+    "category": "Electric"
+  },
+  {
+    "term": "Monitor Panel (PC1100)",
+    "definition": "Panel dalam cabin dengan CPU dan LCD. Menampilkan informasi sensor/switch, alarm abnormal, serta mode selector.",
+    "category": "Electric/Monitoring"
+  },
+  {
+    "term": "Controller (Engine/Hydraulic)",
+    "definition": "Komponen elektrik yang menerima input sensor/switch, lalu memberi output ke solenoid valve untuk mengatur fuel system engine.",
+    "category": "Electronic Control"
+  },
+  {
+    "term": "Solenoid Valve",
+    "definition": "Aktuator elektrik yang bekerja saat coil dialiri arus, menghasilkan medan magnet untuk menggerakkan plunger atau switch valve.",
+    "category": "Electric/Hydraulic"
+  },
+  {
+    "term": "Speed Sensor",
+    "definition": "Sensor di flywheel/transmisi, memanfaatkan magnet permanen. Teeth gear yang melintas memotong medan magnet, menghasilkan sinyal AC sesuai kecepatan.",
+    "category": "Sensor"
+  },
+  {
+    "term": "Prolix Switch (PC1100)",
+    "definition": "Switch emergency (Swing dan TVC) untuk bypass kerusakan pump controller. Swing brake release, TVC solenoid mendapat arus konstan.",
+    "category": "Switch"
+  },
+  {
+    "term": "Pressure Switch (PPC Output)",
+    "definition": "Switch pada jalur output PPC valve. ON saat tekanan oli >4 kg/cm² dan mengirim sinyal ke pump controller.",
+    "category": "Switch"
+  },
+  {
+    "term": "Fuel Control Dial",
+    "definition": "Potensiometer variabel sebagai throttle input ke controller. Resistance berubah sesuai sudut putar, menentukan putaran engine.",
+    "category": "Control"
+  },
+  {
+    "term": "Pressure Switch",
+    "definition": "Switch berdasarkan tekanan angin/oli. Saat tertekan, terminal terhubung/memutus dan memberi sinyal ke controller/monitor.",
+    "category": "Switch"
+  },
+  {
+    "term": "Fuse",
+    "definition": "Pengaman arus 5–30A. Putus jika arus melebihi kapasitas karena short circuit/overload.",
+    "category": "Electric"
+  },
+  {
+    "term": "Level Sensor",
+    "definition": "Sensor level untuk fuel, coolant, engine oil. Tipe resistance atau switch, digunakan di sistem monitoring.",
+    "category": "Sensor"
+  },
+  {
+    "term": "Governor Motor (PC750)",
+    "definition": "Step motor untuk menggerakkan linkage throttle sesuai arus dari engine controller, mengatur idle dan beban engine.",
+    "category": "Electric"
+  },
+  {
+    "term": "Parallel Circuit",
+    "definition": "Rangkaian paralel battery/resistor. Battery: arus dijumlahkan, tegangan tetap. Resistor: arus total besar, tegangan tetap.",
+    "category": "Technical Terminology"
+  },
+  {
+    "term": "Series Circuit",
+    "definition": "Rangkaian seri battery/resistor. Battery: tegangan dijumlahkan, arus tetap. Resistor: resistance total besar, arus mengecil.",
+    "category": "Technical Terminology"
+  },
+  {
+    "term": "Grounding",
+    "definition": "Menghubungkan terminal negatif battery dengan chasis sebagai jalur arus kembali.",
+    "category": "Technical Terminology"
+  },
+  {
+    "term": "Continuity",
+    "definition": "Kondisi rangkaian terhubung. Resistance <1Ω berarti normal, >1MΩ berarti putus.",
+    "category": "Technical Terminology"
+  },
+  {
+    "term": "Alternating Current (AC)",
+    "definition": "Arus bolak-balik dengan polaritas berganti. Contoh: alternator, PLN.",
+    "category": "Technical Terminology"
+  },
+  {
+    "term": "Direct Current (DC)",
+    "definition": "Arus searah dengan polaritas tetap. Contoh: battery.",
+    "category": "Technical Terminology"
+  },
+  {
+    "term": "Normally Open Circuit",
+    "definition": "Rangkaian dengan switch normal terbuka. Resistance >1MΩ saat tidak aktif.",
+    "category": "Technical Terminology"
+  },
+  {
+    "term": "Normally Closed Circuit",
+    "definition": "Rangkaian dengan switch normal tertutup. Resistance <1Ω saat tidak aktif.",
+    "category": "Technical Terminology"
+  },
+  {
+    "term": "Overcharge",
+    "definition": "Kondisi tegangan pengisian melebihi standar, biasanya akibat kerusakan alternator.",
+    "category": "Technical Terminology"
+  },
+  {
+    "term": "User Code",
+    "definition": "Kode abnormal dari controller pada monitor panel. Memberi instruksi operator (HD, GD, WA, D375).",
+    "category": "Monitoring"
+  },
+  {
+    "term": "Service Code",
+    "definition": "Kode detail kerusakan system untuk mekanik melalui menu Service Code.",
+    "category": "Monitoring"
+  },
+  {
+    "term": "Disconnection",
+    "definition": "Kondisi arus tidak mengalir karena connector lepas/lock rusak.",
+    "category": "Technical Terminology"
+  },
+  {
+    "term": "Short Circuit",
+    "definition": "Hubungan singkat positif ke chasis, menyebabkan fuse putus.",
+    "category": "Technical Terminology"
+  },
+  {
+    "term": "Neutral Safety Function",
+    "definition": "Sistem yang mencegah engine start jika lever transmisi tidak netral.",
+    "category": "Safety"
+  },
+  {
+    "term": "Multitester (AVO)",
+    "definition": "Alat ukur tegangan, arus, resistance; model canggih juga ukur frekuensi.",
+    "category": "Tool"
+  },
+  {
+    "term": "Hydrotester",
+    "definition": "Alat ukur berat jenis liquid (biasanya elektrolit battery).",
+    "category": "Tool"
+  },
+  {
+    "term": "Refractometer",
+    "definition": "Alat ukur berat jenis liquid, lebih canggih dari hydrotester.",
+    "category": "Tool"
+  },
+  {
+    "term": "Harness Checker",
+    "definition": "Alat bantu ukur tegangan/resistance pada wiring harness dengan T-adapter.",
+    "category": "Tool"
+  },
+  {
+    "term": "Contact Cleaner",
+    "definition": "Bahan kimia untuk membersihkan pin connector dari karat/kotoran.",
+    "category": "Tool"
+  },
+  {
+    "term": "Electrical Tool Kits",
+    "definition": "Set peralatan repair kelistrikan: potong/sambung kabel, ganti connector, ukur tegangan/arus/resistance.",
+    "category": "Tool"
+  },
+  {
+    "term": "Cable Jumper (Battery Booster)",
+    "definition": "Sepasang kabel untuk menghubungkan paralel battery sehat ke battery lemah.",
+    "category": "Tool"
+  },
+  {
+    "term": "Inspection Monitor Panel",
+    "definition": "Visual: pastikan lampu OFF. Manual: operasikan switch. Measurement: ukur voltage fuse monitor panel.",
+    "category": "Inspection"
+  },
+  {
+    "term": "Inspection Battery Voltage",
+    "definition": "Visual: periksa terminal/cable/vent plug. Measurement: ukur voltage battery.",
+    "category": "Inspection"
+  },
+  {
+    "term": "Inspection Prolix Switch",
+    "definition": "Visual: periksa connector/pin. Manual: gerakkan bolak balik. Measurement: continuity test.",
+    "category": "Inspection"
+  },
+  {
+    "term": "Inspection Continuity",
+    "definition": "Gunakan multitester: normal <1Ω, kabel putus >1MΩ.",
+    "category": "Inspection"
+  },
+  {
+    "term": "Inspection Relay",
+    "definition": "Visual: cek connector/pin. Measurement: resistance coil & continuity antar pin.",
+    "category": "Inspection"
+  },
+  {
+    "term": "Inspection Solenoid Valve",
+    "definition": "Visual: cek connector/pin. Manual: goyangkan untuk bunyi plunger. Measurement: resistance coil.",
+    "category": "Inspection"
+  },
+  {
+    "term": "Inspection Alternator",
+    "definition": "Visual: cek terminal, pulley. Measurement: resistance antar terminal.",
+    "category": "Inspection"
+  },
+  {
+    "term": "Inspection Starting Motor",
+    "definition": "Visual: cek terminal. Manual: cek clutch. Measurement: resistance antar terminal.",
+    "category": "Inspection"
+  },
+  {
+    "term": "Inspection Battery Relay",
+    "definition": "Visual: cek terminal. Measurement: resistance antar terminal.",
+    "category": "Inspection"
+  },
+  {
+    "term": "Inspection Speed Sensor",
+    "definition": "Visual: cek connector/pin. Measurement: resistance antar terminal.",
+    "category": "Inspection"
+  },
+  {
+    "term": "Inspection Governor Motor",
+    "definition": "Visual: cek connector/pin. Measurement: resistance antar terminal. Jangan gerakkan lever saat terhubung.",
+    "category": "Inspection"
+  },
+  {
+    "term": "Inspection Fuel Control Dial",
+    "definition": "Visual: cek connector/pin. Measurement: resistance antar terminal.",
+    "category": "Inspection"
+  },
+  {
+    "term": "Inspection Diode",
+    "definition": "Visual: cek pin/body. Measurement: resistance satu arah dengan multimeter.",
+    "category": "Inspection"
+  },
+  {
+    "term": "Measurement Voltage",
+    "definition": "Ukur voltage dengan multitester (AC/DC) sesuai jenis arus.",
+    "category": "Measurement"
+  },
+  {
+    "term": "Measurement Resistance",
+    "definition": "Ukur resistance dengan multitester. Hubungkan paralel tanpa sumber tenaga.",
+    "category": "Measurement"
+  },
+  {
+    "term": "Measurement Current",
+    "definition": "Ukur arus dengan multitester secara seri dengan sistem. Pastikan tidak melebihi kapasitas alat.",
+    "category": "Measurement"
+  },
+  {
+    "term": "PNPB",
+    "definition": "Publication Number of Part Book, menunjukkan aplikasi part book sesuai Serial Number & Tipe Unit.",
+    "category": "Part Recommendation"
+  },
+  {
+    "term": "SPO",
+    "definition": "Standard Part Overhaul, daftar part untuk overhaul normal sesuai umur.",
+    "category": "Part Recommendation"
+  },
+  {
+    "term": "APL",
+    "definition": "Application Part List untuk Remove & Install komponen sesuai umur.",
+    "category": "Part Recommendation"
+  },
+  {
+    "term": "PSN",
+    "definition": "Part & Service News dari factory berupa modifikasi, improvement, atau instruksi teknis.",
+    "category": "Part Recommendation"
+  },
+  {
+    "term": "Kode Part Book",
+    "definition": "Kode/simbol dari factory untuk mempermudah pemilihan dan pencarian part.",
+    "category": "Part Recommendation"
+  },
+  {
+    "term": "Reusable Part",
+    "definition": "Part yang masih dapat dipakai setelah visual check & measurement sesuai standard QA.",
+    "category": "Part Recommendation"
+  },
+  {
+    "term": "Quality Assurance",
+    "definition": "Prosedur dan langkah kerja overhaul/remove-install dengan critical point dan measurement.",
+    "category": "Part Recommendation"
+  }
+]
