@@ -1,317 +1,760 @@
 [
-  {
-    "term": "Battery",
-    "definition": "Battery terdiri dari plat positif PbO2 dan plat negatif Pb. Saat diisi elektrolit H2SO4 terjadi reaksi kimia menghasilkan arus listrik. Terminal + dan - dihubungkan dengan sistem kelistrikan sebagai sumber tenaga.",
-    "category": "Electric"
-  },
-  {
-    "term": "Wiring Harness",
-    "definition": "Rangkaian kabel penghubung komponen sistem elektrik (starting, charging, monitor, lighting, control). Diameter sesuai arus, kabel dibedakan warna/nomor untuk memudahkan tracing.",
-    "category": "Electric"
-  },
-  {
-    "term": "Starting Switch",
-    "definition": "Switch manual untuk posisi ON, Start, Preheat, OFF. Mengalirkan arus ke relay utama (battery relay, safety relay) agar sistem kelistrikan unit aktif.",
-    "category": "Electric"
-  },
-  {
-    "term": "Battery Relay",
-    "definition": "Relay dengan main coil yang menghubungkan terminal battery dengan sistem kelistrikan saat starting switch ON.",
-    "category": "Electric"
-  },
-  {
-    "term": "Safety Relay",
-    "definition": "Relay dengan 5 terminal (B, C, S, A, E) dipasang antara starting switch dan starting motor. Memutus otomatis saat engine hidup dan alternator bekerja.",
-    "category": "Electric"
-  },
-  {
-    "term": "Alternator",
-    "definition": "Komponen elektrik yang mengubah tenaga mekanis menjadi listrik DC untuk mengisi battery. Dipasang di engine dan digerakkan V-belt.",
-    "category": "Electric"
-  },
-  {
-    "term": "Starting Motor",
-    "definition": "Motor listrik dipasang di flywheel engine, berfungsi mengubah energi listrik menjadi mekanis untuk menghidupkan engine.",
-    "category": "Electric"
-  },
-  {
-    "term": "Fusible Link",
-    "definition": "Fuse kapasitas besar (30–100A) antara battery relay dan fuse box, melindungi battery dari short circuit.",
-    "category": "Electric"
-  },
-  {
-    "term": "Monitor Panel (PC1100)",
-    "definition": "Panel dalam cabin dengan CPU dan LCD. Menampilkan informasi sensor/switch, alarm abnormal, serta mode selector.",
-    "category": "Electric/Monitoring"
-  },
-  {
-    "term": "Controller (Engine/Hydraulic)",
-    "definition": "Komponen elektrik yang menerima input sensor/switch, lalu memberi output ke solenoid valve untuk mengatur fuel system engine.",
-    "category": "Electronic Control"
-  },
-  {
-    "term": "Solenoid Valve",
-    "definition": "Aktuator elektrik yang bekerja saat coil dialiri arus, menghasilkan medan magnet untuk menggerakkan plunger atau switch valve.",
-    "category": "Electric/Hydraulic"
-  },
-  {
-    "term": "Speed Sensor",
-    "definition": "Sensor di flywheel/transmisi, memanfaatkan magnet permanen. Teeth gear yang melintas memotong medan magnet, menghasilkan sinyal AC sesuai kecepatan.",
-    "category": "Sensor"
-  },
-  {
-    "term": "Prolix Switch (PC1100)",
-    "definition": "Switch emergency (Swing dan TVC) untuk bypass kerusakan pump controller. Swing brake release, TVC solenoid mendapat arus konstan.",
-    "category": "Switch"
-  },
-  {
-    "term": "Pressure Switch (PPC Output)",
-    "definition": "Switch pada jalur output PPC valve. ON saat tekanan oli >4 kg/cm² dan mengirim sinyal ke pump controller.",
-    "category": "Switch"
-  },
-  {
-    "term": "Fuel Control Dial",
-    "definition": "Potensiometer variabel sebagai throttle input ke controller. Resistance berubah sesuai sudut putar, menentukan putaran engine.",
-    "category": "Control"
-  },
-  {
-    "term": "Pressure Switch",
-    "definition": "Switch berdasarkan tekanan angin/oli. Saat tertekan, terminal terhubung/memutus dan memberi sinyal ke controller/monitor.",
-    "category": "Switch"
-  },
-  {
-    "term": "Fuse",
-    "definition": "Pengaman arus 5–30A. Putus jika arus melebihi kapasitas karena short circuit/overload.",
-    "category": "Electric"
-  },
-  {
-    "term": "Level Sensor",
-    "definition": "Sensor level untuk fuel, coolant, engine oil. Tipe resistance atau switch, digunakan di sistem monitoring.",
-    "category": "Sensor"
-  },
-  {
-    "term": "Governor Motor (PC750)",
-    "definition": "Step motor untuk menggerakkan linkage throttle sesuai arus dari engine controller, mengatur idle dan beban engine.",
-    "category": "Electric"
-  },
-  {
-    "term": "Parallel Circuit",
-    "definition": "Rangkaian paralel battery/resistor. Battery: arus dijumlahkan, tegangan tetap. Resistor: arus total besar, tegangan tetap.",
-    "category": "Technical Terminology"
-  },
-  {
-    "term": "Series Circuit",
-    "definition": "Rangkaian seri battery/resistor. Battery: tegangan dijumlahkan, arus tetap. Resistor: resistance total besar, arus mengecil.",
-    "category": "Technical Terminology"
-  },
-  {
-    "term": "Grounding",
-    "definition": "Menghubungkan terminal negatif battery dengan chasis sebagai jalur arus kembali.",
-    "category": "Technical Terminology"
-  },
-  {
-    "term": "Continuity",
-    "definition": "Kondisi rangkaian terhubung. Resistance <1Ω berarti normal, >1MΩ berarti putus.",
-    "category": "Technical Terminology"
-  },
-  {
-    "term": "Alternating Current (AC)",
-    "definition": "Arus bolak-balik dengan polaritas berganti. Contoh: alternator, PLN.",
-    "category": "Technical Terminology"
-  },
-  {
-    "term": "Direct Current (DC)",
-    "definition": "Arus searah dengan polaritas tetap. Contoh: battery.",
-    "category": "Technical Terminology"
-  },
-  {
-    "term": "Normally Open Circuit",
-    "definition": "Rangkaian dengan switch normal terbuka. Resistance >1MΩ saat tidak aktif.",
-    "category": "Technical Terminology"
-  },
-  {
-    "term": "Normally Closed Circuit",
-    "definition": "Rangkaian dengan switch normal tertutup. Resistance <1Ω saat tidak aktif.",
-    "category": "Technical Terminology"
-  },
-  {
-    "term": "Overcharge",
-    "definition": "Kondisi tegangan pengisian melebihi standar, biasanya akibat kerusakan alternator.",
-    "category": "Technical Terminology"
-  },
-  {
-    "term": "User Code",
-    "definition": "Kode abnormal dari controller pada monitor panel. Memberi instruksi operator (HD, GD, WA, D375).",
-    "category": "Monitoring"
-  },
-  {
-    "term": "Service Code",
-    "definition": "Kode detail kerusakan system untuk mekanik melalui menu Service Code.",
-    "category": "Monitoring"
-  },
-  {
-    "term": "Disconnection",
-    "definition": "Kondisi arus tidak mengalir karena connector lepas/lock rusak.",
-    "category": "Technical Terminology"
-  },
-  {
-    "term": "Short Circuit",
-    "definition": "Hubungan singkat positif ke chasis, menyebabkan fuse putus.",
-    "category": "Technical Terminology"
-  },
-  {
-    "term": "Neutral Safety Function",
-    "definition": "Sistem yang mencegah engine start jika lever transmisi tidak netral.",
-    "category": "Safety"
-  },
-  {
-    "term": "Multitester (AVO)",
-    "definition": "Alat ukur tegangan, arus, resistance; model canggih juga ukur frekuensi.",
-    "category": "Tool"
-  },
-  {
-    "term": "Hydrotester",
-    "definition": "Alat ukur berat jenis liquid (biasanya elektrolit battery).",
-    "category": "Tool"
-  },
-  {
-    "term": "Refractometer",
-    "definition": "Alat ukur berat jenis liquid, lebih canggih dari hydrotester.",
-    "category": "Tool"
-  },
-  {
-    "term": "Harness Checker",
-    "definition": "Alat bantu ukur tegangan/resistance pada wiring harness dengan T-adapter.",
-    "category": "Tool"
-  },
-  {
-    "term": "Contact Cleaner",
-    "definition": "Bahan kimia untuk membersihkan pin connector dari karat/kotoran.",
-    "category": "Tool"
-  },
-  {
-    "term": "Electrical Tool Kits",
-    "definition": "Set peralatan repair kelistrikan: potong/sambung kabel, ganti connector, ukur tegangan/arus/resistance.",
-    "category": "Tool"
-  },
-  {
-    "term": "Cable Jumper (Battery Booster)",
-    "definition": "Sepasang kabel untuk menghubungkan paralel battery sehat ke battery lemah.",
-    "category": "Tool"
-  },
-  {
-    "term": "Inspection Monitor Panel",
-    "definition": "Visual: pastikan lampu OFF. Manual: operasikan switch. Measurement: ukur voltage fuse monitor panel.",
-    "category": "Inspection"
-  },
-  {
-    "term": "Inspection Battery Voltage",
-    "definition": "Visual: periksa terminal/cable/vent plug. Measurement: ukur voltage battery.",
-    "category": "Inspection"
-  },
-  {
-    "term": "Inspection Prolix Switch",
-    "definition": "Visual: periksa connector/pin. Manual: gerakkan bolak balik. Measurement: continuity test.",
-    "category": "Inspection"
-  },
-  {
-    "term": "Inspection Continuity",
-    "definition": "Gunakan multitester: normal <1Ω, kabel putus >1MΩ.",
-    "category": "Inspection"
-  },
-  {
-    "term": "Inspection Relay",
-    "definition": "Visual: cek connector/pin. Measurement: resistance coil & continuity antar pin.",
-    "category": "Inspection"
-  },
-  {
-    "term": "Inspection Solenoid Valve",
-    "definition": "Visual: cek connector/pin. Manual: goyangkan untuk bunyi plunger. Measurement: resistance coil.",
-    "category": "Inspection"
-  },
-  {
-    "term": "Inspection Alternator",
-    "definition": "Visual: cek terminal, pulley. Measurement: resistance antar terminal.",
-    "category": "Inspection"
-  },
-  {
-    "term": "Inspection Starting Motor",
-    "definition": "Visual: cek terminal. Manual: cek clutch. Measurement: resistance antar terminal.",
-    "category": "Inspection"
-  },
-  {
-    "term": "Inspection Battery Relay",
-    "definition": "Visual: cek terminal. Measurement: resistance antar terminal.",
-    "category": "Inspection"
-  },
-  {
-    "term": "Inspection Speed Sensor",
-    "definition": "Visual: cek connector/pin. Measurement: resistance antar terminal.",
-    "category": "Inspection"
-  },
-  {
-    "term": "Inspection Governor Motor",
-    "definition": "Visual: cek connector/pin. Measurement: resistance antar terminal. Jangan gerakkan lever saat terhubung.",
-    "category": "Inspection"
-  },
-  {
-    "term": "Inspection Fuel Control Dial",
-    "definition": "Visual: cek connector/pin. Measurement: resistance antar terminal.",
-    "category": "Inspection"
-  },
-  {
-    "term": "Inspection Diode",
-    "definition": "Visual: cek pin/body. Measurement: resistance satu arah dengan multimeter.",
-    "category": "Inspection"
-  },
-  {
-    "term": "Measurement Voltage",
-    "definition": "Ukur voltage dengan multitester (AC/DC) sesuai jenis arus.",
-    "category": "Measurement"
-  },
-  {
-    "term": "Measurement Resistance",
-    "definition": "Ukur resistance dengan multitester. Hubungkan paralel tanpa sumber tenaga.",
-    "category": "Measurement"
-  },
-  {
-    "term": "Measurement Current",
-    "definition": "Ukur arus dengan multitester secara seri dengan sistem. Pastikan tidak melebihi kapasitas alat.",
-    "category": "Measurement"
-  },
-  {
-    "term": "PNPB",
-    "definition": "Publication Number of Part Book, menunjukkan aplikasi part book sesuai Serial Number & Tipe Unit.",
-    "category": "Part Recommendation"
-  },
-  {
-    "term": "SPO",
-    "definition": "Standard Part Overhaul, daftar part untuk overhaul normal sesuai umur.",
-    "category": "Part Recommendation"
-  },
-  {
-    "term": "APL",
-    "definition": "Application Part List untuk Remove & Install komponen sesuai umur.",
-    "category": "Part Recommendation"
-  },
-  {
-    "term": "PSN",
-    "definition": "Part & Service News dari factory berupa modifikasi, improvement, atau instruksi teknis.",
-    "category": "Part Recommendation"
-  },
-  {
-    "term": "Kode Part Book",
-    "definition": "Kode/simbol dari factory untuk mempermudah pemilihan dan pencarian part.",
-    "category": "Part Recommendation"
-  },
-  {
-    "term": "Reusable Part",
-    "definition": "Part yang masih dapat dipakai setelah visual check & measurement sesuai standard QA.",
-    "category": "Part Recommendation"
-  },
-  {
-    "term": "Quality Assurance",
-    "definition": "Prosedur dan langkah kerja overhaul/remove-install dengan critical point dan measurement.",
-    "category": "Part Recommendation"
-  }
-]
+{
+  "dataset": "mechapedia_glossary",
+  "version": 1,
+  "updated_at": "2025-08-26",
+  "count": 94,
+  "items": [
+    {
+      "id": "T0001",
+      "term": "Work (Usaha)",
+      "category": "Engine",
+      "definition": "Dalam konteks mesin: energi dari pembakaran yang diubah menjadi kerja mekanis.",
+      "function": "Energi yang dihasilkan/dikeluarkan oleh gaya sepanjang jarak.",
+      "how_it_works": ""
+    },
+    {
+      "id": "T0002",
+      "term": "Torque (Torsi)",
+      "category": "Engine",
+      "definition": "Kemampuan mesin memutar beban; menjadi dasar karakter tarikan.",
+      "function": "Momen puntir pada poros.",
+      "how_it_works": ""
+    },
+    {
+      "id": "T0003",
+      "term": "Power (Daya Mekanis)",
+      "category": "Engine",
+      "definition": "Besarnya kerja per satuan waktu; pada mesin, terkait torsi dan kecepatan putar.",
+      "function": "Laju melakukan kerja.",
+      "how_it_works": ""
+    },
+    {
+      "id": "T0004",
+      "term": "Horsepower (HP)",
+      "category": "Engine",
+      "definition": "Konversi dari kW: 1 HP ≈ 0,7457 kW (SAE), 1 kW ≈ 1,341 HP.",
+      "function": "Satuan daya tradisional (imperial).",
+      "how_it_works": ""
+    },
+    {
+      "id": "T0005",
+      "term": "Kilowatt (kW)",
+      "category": "Engine",
+      "definition": "Lebih umum untuk spesifikasi modern.",
+      "function": "Satuan SI untuk daya.",
+      "how_it_works": ""
+    },
+    {
+      "id": "T0006",
+      "term": "RPM",
+      "category": "Engine",
+      "definition": "Menentukan posisi di kurva torsi dan daya.",
+      "function": "Kecepatan putar poros per menit.",
+      "how_it_works": ""
+    },
+    {
+      "id": "T0007",
+      "term": "Rated RPM",
+      "category": "Engine",
+      "definition": "Biasanya saat daya maksimum (rated power).",
+      "function": "Putaran nominal untuk output daya tertera.",
+      "how_it_works": ""
+    },
+    {
+      "id": "T0008",
+      "term": "High Idle RPM (No-load)",
+      "category": "Engine",
+      "definition": "Digunakan untuk pemeriksaan kontrol governor.",
+      "function": "Putaran maksimum tanpa beban.",
+      "how_it_works": ""
+    },
+    {
+      "id": "T0009",
+      "term": "Horsepower Curve",
+      "category": "Engine",
+      "definition": "Menunjukkan bagaimana daya meningkat lalu puncak di putaran tertentu.",
+      "function": "Kurva daya terhadap RPM.",
+      "how_it_works": ""
+    },
+    {
+      "id": "T0010",
+      "term": "Torque Curve",
+      "category": "Engine",
+      "definition": "Pada diesel: puncak torsi biasanya di RPM menengah.",
+      "function": "Kurva torsi terhadap RPM.",
+      "how_it_works": ""
+    },
+    {
+      "id": "T0011",
+      "term": "Peak Torque",
+      "category": "Engine",
+      "definition": "Mencerminkan tarikan terkuat pada rentang putaran tertentu.",
+      "function": "Nilai torsi maksimum pada kurva.",
+      "how_it_works": ""
+    },
+    {
+      "id": "T0012",
+      "term": "Torque Rise",
+      "category": "Engine",
+      "definition": "Menunjukkan kemampuan menahan beban saat rpm turun.",
+      "function": "Persentase peningkatan torsi dari rated torque ke peak torque.",
+      "how_it_works": ""
+    },
+    {
+      "id": "T0013",
+      "term": "Governor Droop",
+      "category": "Engine",
+      "definition": "Memungkinkan pembagian beban & stabilitas.",
+      "function": "Penurunan RPM dari tanpa beban ke beban penuh.",
+      "how_it_works": ""
+    },
+    {
+      "id": "T0014",
+      "term": "Brake Power (BP)",
+      "category": "Engine",
+      "definition": "Diukur pada dynamometer; setelah dikurangi rugi internal.",
+      "function": "Daya poros keluar (flywheel).",
+      "how_it_works": ""
+    },
+    {
+      "id": "T0015",
+      "term": "Indicated Power (IP)",
+      "category": "Engine",
+      "definition": "IP > BP karena masih ada rugi gesek/aksesori.",
+      "function": "Daya teoritis dari tekanan dalam silinder.",
+      "how_it_works": ""
+    },
+    {
+      "id": "T0016",
+      "term": "Friction Power (FP)",
+      "category": "Engine",
+      "definition": "Akibat gesekan, pompa oli/air, aksesori, dll.",
+      "function": "Selisih antara IP dan BP (rugi mekanis).",
+      "how_it_works": ""
+    },
+    {
+      "id": "T0017",
+      "term": "Mechanical Efficiency",
+      "category": "Engine",
+      "definition": "η_mech = BP / IP.",
+      "function": "Efisiensi mekanis transmisi daya.",
+      "how_it_works": ""
+    },
+    {
+      "id": "T0018",
+      "term": "BSFC (Brake Specific Fuel Consumption)",
+      "category": "Engine",
+      "definition": "Indikator efisiensi pada beban/putaran tertentu.",
+      "function": "Konsumsi bbm per daya keluar poros.",
+      "how_it_works": ""
+    },
+    {
+      "id": "T0019",
+      "term": "Fuel Map",
+      "category": "Engine",
+      "definition": "Memetakan titik efisien terbaik mesin.",
+      "function": "Peta kontur BSFC vs RPM dan load.",
+      "how_it_works": ""
+    },
+    {
+      "id": "T0020",
+      "term": "Thermal Efficiency",
+      "category": "Engine",
+      "definition": "η_th = BP / (ṁ_fuel × LHV).",
+      "function": "Perbandingan daya keluar terhadap energi kimia.",
+      "how_it_works": ""
+    },
+    {
+      "id": "T0021",
+      "term": "BMEP (Brake Mean Effective Pressure)",
+      "category": "Engine",
+      "definition": "BMEP ≈ (2π × τ) / Vd (SI).",
+      "function": "Tekanan efektif rata‑rata perwakilan output torsi.",
+      "how_it_works": ""
+    },
+    {
+      "id": "T0022",
+      "term": "Mean Piston Speed",
+      "category": "Engine",
+      "definition": "U_p = 2 × Stroke × RPM / 60.",
+      "function": "Kecepatan rata‑rata gerak piston.",
+      "how_it_works": ""
+    },
+    {
+      "id": "T0023",
+      "term": "Volumetric Efficiency",
+      "category": "Engine",
+      "definition": "η_v = ṁ_air / (ρ × Vd × RPM/2).",
+      "function": "Perbandingan massa udara aktual masuk terhadap teoritis.",
+      "how_it_works": ""
+    },
+    {
+      "id": "T0024",
+      "term": "Air Density (ρ)",
+      "category": "Engine",
+      "definition": "ρ ∝ P/T.",
+      "function": "Kerapatan udara masuk.",
+      "how_it_works": ""
+    },
+    {
+      "id": "T0025",
+      "term": "Altitude Correction",
+      "category": "Engine",
+      "definition": "Power ≈ Power_sea × f(altitude).",
+      "function": "Koreksi daya karena ketinggian.",
+      "how_it_works": ""
+    },
+    {
+      "id": "T0026",
+      "term": "Temperature Correction",
+      "category": "Engine",
+      "definition": "Power ∝ ρ_inlet.",
+      "function": "Koreksi daya karena temperatur udara masuk.",
+      "how_it_works": ""
+    },
+    {
+      "id": "T0027",
+      "term": "Gross Horsepower",
+      "category": "Engine",
+      "definition": "Sebelum beban kipas, alternator, pompa.",
+      "function": "Daya keluaran tanpa beban aksesori.",
+      "how_it_works": ""
+    },
+    {
+      "id": "T0028",
+      "term": "Net Horsepower",
+      "category": "Engine",
+      "definition": "Lebih realistis di aplikasi.",
+      "function": "Daya setelah beban aksesori standar.",
+      "how_it_works": ""
+    },
+    {
+      "id": "T0029",
+      "term": "Flywheel Power",
+      "category": "Engine",
+      "definition": "Angka performa katalog.",
+      "function": "Daya pada sisi flywheel output.",
+      "how_it_works": ""
+    },
+    {
+      "id": "T0030",
+      "term": "Accessory Power (Parasitic Loss)",
+      "category": "Engine",
+      "definition": "Mengurangi daya bersih tersedia.",
+      "function": "Daya yang dikonsumsi aksesori.",
+      "how_it_works": ""
+    },
+    {
+      "id": "T0031",
+      "term": "Factor Affecting Performance",
+      "category": "Engine",
+      "definition": "T, P, RH udara masuk; back pressure; EGR; kebersihan filter; kualitas bbm.",
+      "function": "Faktor-faktor yang mempengaruhi performa.",
+      "how_it_works": ""
+    },
+    {
+      "id": "T0032",
+      "term": "EGR Effect",
+      "category": "Engine",
+      "definition": "Menurunkan NOx, biasanya mengurangi densitas oksigen & daya.",
+      "function": "Pengaruh EGR pada performa.",
+      "how_it_works": ""
+    },
+    {
+      "id": "T0033",
+      "term": "Turbocharger Effect",
+      "category": "Engine",
+      "definition": "Menaikkan massa udara → torsi & daya naik.",
+      "function": "Pengaruh turbo pada performa.",
+      "how_it_works": ""
+    },
+    {
+      "id": "T0034",
+      "term": "Aftercooler Effect",
+      "category": "Engine",
+      "definition": "Menurunkan T udara → ρ naik → torsi naik.",
+      "function": "Pengaruh pendinginan udara setelah kompresi.",
+      "how_it_works": ""
+    },
+    {
+      "id": "T0035",
+      "term": "Rated Power",
+      "category": "Engine",
+      "definition": "Nilai di spesifikasi mesin.",
+      "function": "Daya nominal kondisi standar.",
+      "how_it_works": ""
+    },
+    {
+      "id": "T0036",
+      "term": "Engine Load Factor",
+      "category": "Engine",
+      "definition": "LF = P_rata2 / P_rated.",
+      "function": "Rata‑rata beban terhadap daya terpasang.",
+      "how_it_works": ""
+    },
+    {
+      "id": "T0037",
+      "term": "Fuel Consumption (Volumetric)",
+      "category": "Engine",
+      "definition": "ṁ_vol = ṁ_mass / ρ_fuel.",
+      "function": "Konsumsi BBM L/h atau gal/h.",
+      "how_it_works": ""
+    },
+    {
+      "id": "T0038",
+      "term": "Fuel Density",
+      "category": "Engine",
+      "definition": "Pengaruh konversi massa↔volume.",
+      "function": "Kerapatan bahan bakar (kg/L).",
+      "how_it_works": ""
+    },
+    {
+      "id": "T0039",
+      "term": "Combustion Efficiency",
+      "category": "Engine",
+      "definition": "Dipengaruhi pengabutan, swirl, timing injeksi, dll.",
+      "function": "Efisiensi konversi kimia → panas.",
+      "how_it_works": ""
+    },
+    {
+      "id": "T0040",
+      "term": "Derate",
+      "category": "Engine",
+      "definition": "Karena overheat, oil pressure low, sensor fault, altitude, dsb.",
+      "function": "Pengurangan daya oleh kontrol.",
+      "how_it_works": ""
+    },
+    {
+      "id": "T0041",
+      "term": "Governor Type",
+      "category": "Engine",
+      "definition": "Mekanis/elektronik; mempengaruhi droop & respons.",
+      "function": "Jenis pengendali putaran.",
+      "how_it_works": ""
+    },
+    {
+      "id": "T0042",
+      "term": "Transient Response",
+      "category": "Engine",
+      "definition": "Dipengaruhi turbo lag, kontrol bbm, inersia.",
+      "function": "Respons terhadap perubahan beban mendadak.",
+      "how_it_works": ""
+    },
+    {
+      "id": "T0043",
+      "term": "Back Pressure (Exhaust)",
+      "category": "Engine",
+      "definition": "Tinggi → daya turun & suhu naik.",
+      "function": "Tekanan balik di sisi exhaust.",
+      "how_it_works": ""
+    },
+    {
+      "id": "T0044",
+      "term": "Intake Restriction",
+      "category": "Engine",
+      "definition": "ΔP tinggi → ρ turun → torsi/daya turun.",
+      "function": "Hambatan sisi hisap/filtrasi.",
+      "how_it_works": ""
+    },
+    {
+      "id": "T0045",
+      "term": "Ambient Conditions",
+      "category": "Engine",
+      "definition": "Dicatat untuk koreksi ke standar.",
+      "function": "Kondisi lingkungan (T, P, RH).",
+      "how_it_works": ""
+    },
+    {
+      "id": "T0046",
+      "term": "Bore",
+      "category": "Engine",
+      "definition": "Ukuran garis tengah lubang silinder; digunakan untuk menghitung displacement bersama stroke.",
+      "function": "Diameter silinder.",
+      "how_it_works": ""
+    },
+    {
+      "id": "T0047",
+      "term": "Stroke",
+      "category": "Engine",
+      "definition": "Menentukan volume sapuan; bersama bore mempengaruhi karakter torsi/putaran.",
+      "function": "Jarak gerak piston dari TDC ke BDC.",
+      "how_it_works": ""
+    },
+    {
+      "id": "T0048",
+      "term": "Displacement",
+      "category": "Engine",
+      "definition": "Dihitung dari bore dan stroke × jumlah silinder; satuan umum liter atau cm³.",
+      "function": "Volume total sapuan semua silinder.",
+      "how_it_works": ""
+    },
+    {
+      "id": "T0049",
+      "term": "Compression Ratio",
+      "category": "Engine",
+      "definition": "Rasio (VBDC/VTDC) mempengaruhi efisiensi termal dan karakter pembakaran.",
+      "function": "Perbandingan volume silinder saat BDC terhadap TDC.",
+      "how_it_works": ""
+    },
+    {
+      "id": "T0050",
+      "term": "TDC",
+      "category": "Engine",
+      "definition": "Acuan pengaturan timing dan valve lash.",
+      "function": "Titik tertinggi posisi piston.",
+      "how_it_works": ""
+    },
+    {
+      "id": "T0051",
+      "term": "BDC",
+      "category": "Engine",
+      "definition": "Kebalikan TDC; berguna untuk analisis langkah hisap/buang.",
+      "function": "Titik terendah posisi piston.",
+      "how_it_works": ""
+    },
+    {
+      "id": "T0052",
+      "term": "Firing Order",
+      "category": "Engine",
+      "definition": "Ditetapkan pabrikan untuk keseimbangan dan kehalusan mesin.",
+      "function": "Urutan penyalaan/injeksi tiap silinder.",
+      "how_it_works": ""
+    },
+    {
+      "id": "T0053",
+      "term": "Valve Timing",
+      "category": "Engine",
+      "definition": "Termasuk advance/retard & overlap; diatur profil cam & rasio gear.",
+      "function": "Waktu buka/tutup katup terhadap sudut crankshaft.",
+      "how_it_works": ""
+    },
+    {
+      "id": "T0054",
+      "term": "Valve Overlap",
+      "category": "Engine",
+      "definition": "Membantu scavenging dan aliran; mempengaruhi karakter torsi/putaran.",
+      "function": "Periode saat katup intake & exhaust sama‑sama terbuka.",
+      "how_it_works": ""
+    },
+    {
+      "id": "T0055",
+      "term": "Valve Lash",
+      "category": "Engine",
+      "definition": "Diukur sesuai spesifikasi untuk kompensasi ekspansi termal.",
+      "function": "Celah bebas pada mekanisme katup.",
+      "how_it_works": ""
+    },
+    {
+      "id": "T0056",
+      "term": "Camshaft Lobe",
+      "category": "Engine",
+      "definition": "Menentukan lift dan duration.",
+      "function": "Profil tonjolan pada camshaft yang menggerakkan katup.",
+      "how_it_works": ""
+    },
+    {
+      "id": "T0057",
+      "term": "Base Circle",
+      "category": "Engine",
+      "definition": "Menjadi referensi saat mengukur lash.",
+      "function": "Bagian lingkar cam tanpa lift.",
+      "how_it_works": ""
+    },
+    {
+      "id": "T0058",
+      "term": "Lift",
+      "category": "Engine",
+      "definition": "Dipengaruhi profil lobe dan rasio rocker.",
+      "function": "Jarak maksimum pembukaan katup.",
+      "how_it_works": ""
+    },
+    {
+      "id": "T0059",
+      "term": "Duration",
+      "category": "Engine",
+      "definition": "Durasi lebih lama meningkatkan aliran putaran tinggi.",
+      "function": "Sudut engkol selama katup terbuka.",
+      "how_it_works": ""
+    },
+    {
+      "id": "T0060",
+      "term": "Timing Gear",
+      "category": "Engine",
+      "definition": "Menjaga rasio 1:2 (4‑tak); menggerakkan pompa bantu.",
+      "function": "Rangkaian gear sinkronisasi camshaft–crankshaft.",
+      "how_it_works": ""
+    },
+    {
+      "id": "T0061",
+      "term": "Backlash",
+      "category": "Engine",
+      "definition": "Perlu batas; berlebihan → noise & keausan.",
+      "function": "Celah bebas antar gigi.",
+      "how_it_works": ""
+    },
+    {
+      "id": "T0062",
+      "term": "Main Journal",
+      "category": "Engine",
+      "definition": "Menopang poros engkol terhadap blok.",
+      "function": "Jurnal/bantalan utama crankshaft.",
+      "how_it_works": ""
+    },
+    {
+      "id": "T0063",
+      "term": "Rod Journal",
+      "category": "Engine",
+      "definition": "Menentukan stroke; butuh pelumasan tekanan.",
+      "function": "Jurnal ujung besar connecting rod.",
+      "how_it_works": ""
+    },
+    {
+      "id": "T0064",
+      "term": "Thrust Bearing",
+      "category": "Engine",
+      "definition": "Mengontrol end play crank.",
+      "function": "Bantalan penahan gaya aksial crankshaft.",
+      "how_it_works": ""
+    },
+    {
+      "id": "T0065",
+      "term": "End Play",
+      "category": "Engine",
+      "definition": "Diukur dengan dial gauge.",
+      "function": "Gerak bebas aksial crankshaft.",
+      "how_it_works": ""
+    },
+    {
+      "id": "T0066",
+      "term": "Ring End Gap",
+      "category": "Engine",
+      "definition": "Butuh toleransi untuk ekspansi termal.",
+      "function": "Celah ujung ring saat terpasang.",
+      "how_it_works": ""
+    },
+    {
+      "id": "T0067",
+      "term": "Crosshatch",
+      "category": "Engine",
+      "definition": "Membantu retensi oli & run‑in ring.",
+      "function": "Pola goresan pada dinding liner.",
+      "how_it_works": ""
+    },
+    {
+      "id": "T0068",
+      "term": "Blow-by",
+      "category": "Engine",
+      "definition": "Naik bila ring/liner aus; indikator kondisi mesin.",
+      "function": "Kebocoran gas pembakaran melewati ring.",
+      "how_it_works": ""
+    },
+    {
+      "id": "T0069",
+      "term": "Plastigage",
+      "category": "Engine",
+      "definition": "Ditekan antara jurnal dan bearing lalu dibaca skalanya.",
+      "function": "Benang plastik cek clearance bearing.",
+      "how_it_works": ""
+    },
+    {
+      "id": "T0070",
+      "term": "Cylinder Head Group",
+      "category": "Engine",
+      "definition": "Menjadi rumah komponen valvetrain, saluran masuk/keluar, dan ruang bakar bagian atas.",
+      "function": "Menjadi rumah komponen valvetrain, saluran masuk/keluar, dan ruang bakar bagian atas.",
+      "how_it_works": ""
+    },
+    {
+      "id": "T0071",
+      "term": "Cylinder Head",
+      "category": "Engine",
+      "definition": "Struktur kepala silinder yang menutup ruang bakar dan menampung saluran intake/exhaust.",
+      "function": "Struktur kepala silinder yang menutup ruang bakar dan menampung saluran intake/exhaust.",
+      "how_it_works": ""
+    },
+    {
+      "id": "T0072",
+      "term": "Valve Seat",
+      "category": "Engine",
+      "definition": "Memberi permukaan duduk rapat bagi katup untuk sealing gas pembakaran.",
+      "function": "Memberi permukaan duduk rapat bagi katup untuk sealing gas pembakaran.",
+      "how_it_works": ""
+    },
+    {
+      "id": "T0073",
+      "term": "Valve",
+      "category": "Engine",
+      "definition": "Mengatur bukaan/penutupan aliran udara masuk dan gas buang.",
+      "function": "Mengatur bukaan/penutupan aliran udara masuk dan gas buang.",
+      "how_it_works": ""
+    },
+    {
+      "id": "T0074",
+      "term": "Rocker Arm",
+      "category": "Engine",
+      "definition": "Mengubah gerak linear tappet/push rod menjadi tekanan pada ujung katup.",
+      "function": "Mengubah gerak linear tappet/push rod menjadi tekanan pada ujung katup.",
+      "how_it_works": ""
+    },
+    {
+      "id": "T0075",
+      "term": "Nozzle Holder Sleeve",
+      "category": "Engine",
+      "definition": "Rumah/sleeve dudukan nozzle/injector agar presisi dan sealing baik.",
+      "function": "Rumah/sleeve dudukan nozzle/injector agar presisi dan sealing baik.",
+      "how_it_works": ""
+    },
+    {
+      "id": "T0076",
+      "term": "Cylinder Head Gasket",
+      "category": "Engine",
+      "definition": "Memberi sealing antara head dan block terhadap kompresi, oli, dan coolant.",
+      "function": "Memberi sealing antara head dan block terhadap kompresi, oli, dan coolant.",
+      "how_it_works": ""
+    },
+    {
+      "id": "T0077",
+      "term": "Cylinder Block",
+      "category": "Engine",
+      "definition": "Badan utama mesin yang menampung silinder, oil gallery, dan water jacket.",
+      "function": "Badan utama mesin yang menampung silinder, oil gallery, dan water jacket.",
+      "how_it_works": ""
+    },
+    {
+      "id": "T0078",
+      "term": "Cylinder Liner",
+      "category": "Engine",
+      "definition": "Selongsong silinder sebagai permukaan gesek piston & ring.",
+      "function": "Selongsong silinder sebagai permukaan gesek piston & ring.",
+      "how_it_works": ""
+    },
+    {
+      "id": "T0079",
+      "term": "Piston",
+      "category": "Engine",
+      "definition": "Menerima gaya pembakaran dan menyalurkannya ke connecting rod.",
+      "function": "Menerima gaya pembakaran dan menyalurkannya ke connecting rod.",
+      "how_it_works": ""
+    },
+    {
+      "id": "T0080",
+      "term": "Piston Ring",
+      "category": "Engine",
+      "definition": "Sealing kompresi dan kontrol oli di dinding silinder.",
+      "function": "Sealing kompresi dan kontrol oli di dinding silinder.",
+      "how_it_works": ""
+    },
+    {
+      "id": "T0081",
+      "term": "Connecting Rod",
+      "category": "Engine",
+      "definition": "Menyalurkan gaya dari piston ke crankshaft.",
+      "function": "Menyalurkan gaya dari piston ke crankshaft.",
+      "how_it_works": ""
+    },
+    {
+      "id": "T0082",
+      "term": "Crankshaft",
+      "category": "Engine",
+      "definition": "Mengubah gerak translasi piston menjadi putaran.",
+      "function": "Mengubah gerak translasi piston menjadi putaran.",
+      "how_it_works": ""
+    },
+    {
+      "id": "T0083",
+      "term": "Main Bearing (Con-rod Bearing)",
+      "category": "Engine",
+      "definition": "Menopang poros engkol & ujung besar con‑rod.",
+      "function": "Menopang poros engkol & ujung besar con‑rod.",
+      "how_it_works": ""
+    },
+    {
+      "id": "T0084",
+      "term": "Flywheel Group",
+      "category": "Engine",
+      "definition": "Menyimpan inersia untuk menstabilkan putaran & meneruskan torsi.",
+      "function": "Menyimpan inersia untuk menstabilkan putaran & meneruskan torsi.",
+      "how_it_works": ""
+    },
+    {
+      "id": "T0085",
+      "term": "Damper",
+      "category": "Engine",
+      "definition": "Meredam osilasi torsi pada crankshaft.",
+      "function": "Meredam osilasi torsi pada crankshaft.",
+      "how_it_works": ""
+    },
+    {
+      "id": "T0086",
+      "term": "Balancer Shaft",
+      "category": "Engine",
+      "definition": "Menyeimbangkan getaran orde tertentu pada mesin.",
+      "function": "Menyeimbangkan getaran orde tertentu pada mesin.",
+      "how_it_works": ""
+    },
+    {
+      "id": "T0087",
+      "term": "Camshaft",
+      "category": "Engine",
+      "definition": "Mengatur timing bukaan katup.",
+      "function": "Mengatur timing bukaan katup.",
+      "how_it_works": ""
+    },
+    {
+      "id": "T0088",
+      "term": "Tappet (Lifter)",
+      "category": "Engine",
+      "definition": "Meneruskan profil lobe cam ke push rod/rocker atau langsung ke valve.",
+      "function": "Meneruskan profil lobe cam ke push rod/rocker atau langsung ke valve.",
+      "how_it_works": ""
+    },
+    {
+      "id": "T0089",
+      "term": "PTO Gearing",
+      "category": "Engine",
+      "definition": "Mengambil daya dari mesin untuk peralatan bantu.",
+      "function": "Mengambil daya dari mesin untuk peralatan bantu.",
+      "how_it_works": ""
+    },
+    {
+      "id": "T0090",
+      "term": "Valve Guide",
+      "category": "Engine",
+      "definition": "Memandu batang katup agar lurus dan mengontrol pelumasan pada stem.",
+      "function": "Memandu batang katup agar lurus dan mengontrol pelumasan pada stem.",
+      "how_it_works": ""
+    },
+    {
+      "id": "T0091",
+      "term": "Push Rod",
+      "category": "Engine",
+      "definition": "Meneruskan gerak dari tappet ke rocker arm (tipe OHV).",
+      "function": "Meneruskan gerak dari tappet ke rocker arm (tipe OHV).",
+      "how_it_works": ""
+    },
+    {
+      "id": "T0092",
+      "term": "Rocker Shaft",
+      "category": "Engine",
+      "definition": "Poros tempat rocker arm berputar.",
+      "function": "Poros tempat rocker arm berputar.",
+      "how_it_works": ""
+    },
+    {
+      "id": "T0093",
+      "term": "Piston Pin (Gudgeon Pin)",
+      "category": "Engine",
+      "definition": "Menghubungkan piston dengan connecting rod.",
+      "function": "Menghubungkan piston dengan connecting rod.",
+      "how_it_works": ""
+    },
+    {
+      "id": "T0094",
+      "term": "Crankcase",
+      "category": "Engine",
+      "definition": "Ruang bawah blok untuk menampung oli dan housing crankshaft.",
+      "function": "Ruang bawah blok untuk menampung oli dan housing crankshaft.",
+      "how_it_works": ""
+    }
+  ]
