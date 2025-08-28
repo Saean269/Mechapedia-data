@@ -1,0 +1,1130 @@
+[
+  {
+    "id": "T0001",
+    "term": "Work (Usaha)",
+    "category": "Engine",
+    "definition": "Dalam konteks mesin: energi dari pembakaran yang diubah menjadi kerja mekanis.",
+    "howItWorks": "Energi yang dihasilkan/dikeluarkan oleh gaya sepanjang jarak.",
+    "source": "UIM Komatsu",
+    "tags": [
+      "engine"
+    ],
+    "updatedAt": 1756141200000
+  },
+  {
+    "id": "T0002",
+    "term": "Torque (Torsi)",
+    "category": "Engine",
+    "definition": "Kemampuan mesin memutar beban; menjadi dasar karakter tarikan.",
+    "howItWorks": "Momen puntir pada poros.",
+    "source": "UIM Komatsu",
+    "tags": [
+      "engine"
+    ],
+    "updatedAt": 1756141200000
+  },
+  {
+    "id": "T0003",
+    "term": "Power (Daya Mekanis)",
+    "category": "Engine",
+    "definition": "Besarnya kerja per satuan waktu; pada mesin, terkait torsi dan kecepatan putar.",
+    "howItWorks": "Laju melakukan kerja.",
+    "source": "UIM Komatsu",
+    "tags": [
+      "engine"
+    ],
+    "updatedAt": 1756141200000
+  },
+  {
+    "id": "T0004",
+    "term": "Horsepower (HP)",
+    "category": "Engine",
+    "definition": "Konversi dari kW: 1 HP ≈ 0,7457 kW (SAE), 1 kW ≈ 1,341 HP.",
+    "howItWorks": "Satuan daya tradisional (imperial).",
+    "source": "UIM Komatsu",
+    "tags": [
+      "engine"
+    ],
+    "updatedAt": 1756141200000
+  },
+  {
+    "id": "T0005",
+    "term": "Kilowatt (kW)",
+    "category": "Engine",
+    "definition": "Lebih umum untuk spesifikasi modern.",
+    "howItWorks": "Satuan SI untuk daya.",
+    "source": "UIM Komatsu",
+    "tags": [
+      "engine"
+    ],
+    "updatedAt": 1756141200000
+  },
+  {
+    "id": "T0006",
+    "term": "RPM",
+    "category": "Engine",
+    "definition": "Menentukan posisi di kurva torsi dan daya.",
+    "howItWorks": "Kecepatan putar poros per menit.",
+    "source": "UIM Komatsu",
+    "tags": [
+      "engine"
+    ],
+    "updatedAt": 1756141200000
+  },
+  {
+    "id": "T0007",
+    "term": "Rated RPM",
+    "category": "Engine",
+    "definition": "Biasanya saat daya maksimum (rated power).",
+    "howItWorks": "Putaran nominal untuk output daya tertera.",
+    "source": "UIM Komatsu",
+    "tags": [
+      "engine"
+    ],
+    "updatedAt": 1756141200000
+  },
+  {
+    "id": "T0008",
+    "term": "High Idle RPM (No-load)",
+    "category": "Engine",
+    "definition": "Digunakan untuk pemeriksaan kontrol governor.",
+    "howItWorks": "Putaran maksimum tanpa beban.",
+    "source": "UIM Komatsu",
+    "tags": [
+      "engine"
+    ],
+    "updatedAt": 1756141200000
+  },
+  {
+    "id": "T0009",
+    "term": "Horsepower Curve",
+    "category": "Engine",
+    "definition": "Menunjukkan bagaimana daya meningkat lalu puncak di putaran tertentu.",
+    "howItWorks": "Kurva daya terhadap RPM.",
+    "source": "UIM Komatsu",
+    "tags": [
+      "engine"
+    ],
+    "updatedAt": 1756141200000
+  },
+  {
+    "id": "T0010",
+    "term": "Torque Curve",
+    "category": "Engine",
+    "definition": "Pada diesel: puncak torsi biasanya di RPM menengah.",
+    "howItWorks": "Kurva torsi terhadap RPM.",
+    "source": "UIM Komatsu",
+    "tags": [
+      "engine"
+    ],
+    "updatedAt": 1756141200000
+  },
+  {
+    "id": "T0011",
+    "term": "Peak Torque",
+    "category": "Engine",
+    "definition": "Mencerminkan tarikan terkuat pada rentang putaran tertentu.",
+    "howItWorks": "Nilai torsi maksimum pada kurva.",
+    "source": "UIM Komatsu",
+    "tags": [
+      "engine"
+    ],
+    "updatedAt": 1756141200000
+  },
+  {
+    "id": "T0012",
+    "term": "Torque Rise",
+    "category": "Engine",
+    "definition": "Menunjukkan kemampuan menahan beban saat rpm turun.",
+    "howItWorks": "Persentase peningkatan torsi dari rated torque ke peak torque.",
+    "source": "UIM Komatsu",
+    "tags": [
+      "engine"
+    ],
+    "updatedAt": 1756141200000
+  },
+  {
+    "id": "T0013",
+    "term": "Governor Droop",
+    "category": "Engine",
+    "definition": "Memungkinkan pembagian beban & stabilitas.",
+    "howItWorks": "Penurunan RPM dari tanpa beban ke beban penuh.",
+    "source": "UIM Komatsu",
+    "tags": [
+      "engine"
+    ],
+    "updatedAt": 1756141200000
+  },
+  {
+    "id": "T0014",
+    "term": "Brake Power (BP)",
+    "category": "Engine",
+    "definition": "Diukur pada dynamometer; setelah dikurangi rugi internal.",
+    "howItWorks": "Daya poros keluar (flywheel).",
+    "source": "UIM Komatsu",
+    "tags": [
+      "engine"
+    ],
+    "updatedAt": 1756141200000
+  },
+  {
+    "id": "T0015",
+    "term": "Indicated Power (IP)",
+    "category": "Engine",
+    "definition": "IP > BP karena masih ada rugi gesek/aksesori.",
+    "howItWorks": "Daya teoritis dari tekanan dalam silinder.",
+    "source": "UIM Komatsu",
+    "tags": [
+      "engine"
+    ],
+    "updatedAt": 1756141200000
+  },
+  {
+    "id": "T0016",
+    "term": "Friction Power (FP)",
+    "category": "Engine",
+    "definition": "Akibat gesekan, pompa oli/air, aksesori, dll.",
+    "howItWorks": "Selisih antara IP dan BP (rugi mekanis).",
+    "source": "UIM Komatsu",
+    "tags": [
+      "engine"
+    ],
+    "updatedAt": 1756141200000
+  },
+  {
+    "id": "T0017",
+    "term": "Mechanical Efficiency",
+    "category": "Engine",
+    "definition": "η_mech = BP / IP.",
+    "howItWorks": "Efisiensi mekanis transmisi daya.",
+    "source": "UIM Komatsu",
+    "tags": [
+      "engine"
+    ],
+    "updatedAt": 1756141200000
+  },
+  {
+    "id": "T0018",
+    "term": "BSFC (Brake Specific Fuel Consumption)",
+    "category": "Engine",
+    "definition": "Indikator efisiensi pada beban/putaran tertentu.",
+    "howItWorks": "Konsumsi bbm per daya keluar poros.",
+    "source": "UIM Komatsu",
+    "tags": [
+      "engine"
+    ],
+    "updatedAt": 1756141200000
+  },
+  {
+    "id": "T0019",
+    "term": "Fuel Map",
+    "category": "Engine",
+    "definition": "Memetakan titik efisien terbaik mesin.",
+    "howItWorks": "Peta kontur BSFC vs RPM dan load.",
+    "source": "UIM Komatsu",
+    "tags": [
+      "engine"
+    ],
+    "updatedAt": 1756141200000
+  },
+  {
+    "id": "T0020",
+    "term": "Thermal Efficiency",
+    "category": "Engine",
+    "definition": "η_th = BP / (ṁ_fuel × LHV).",
+    "howItWorks": "Perbandingan daya keluar terhadap energi kimia.",
+    "source": "UIM Komatsu",
+    "tags": [
+      "engine"
+    ],
+    "updatedAt": 1756141200000
+  },
+  {
+    "id": "T0021",
+    "term": "BMEP (Brake Mean Effective Pressure)",
+    "category": "Engine",
+    "definition": "BMEP ≈ (2π × τ) / Vd (SI).",
+    "howItWorks": "Tekanan efektif rata‑rata perwakilan output torsi.",
+    "source": "UIM Komatsu",
+    "tags": [
+      "engine"
+    ],
+    "updatedAt": 1756141200000
+  },
+  {
+    "id": "T0022",
+    "term": "Mean Piston Speed",
+    "category": "Engine",
+    "definition": "U_p = 2 × Stroke × RPM / 60.",
+    "howItWorks": "Kecepatan rata‑rata gerak piston.",
+    "source": "UIM Komatsu",
+    "tags": [
+      "engine"
+    ],
+    "updatedAt": 1756141200000
+  },
+  {
+    "id": "T0023",
+    "term": "Volumetric Efficiency",
+    "category": "Engine",
+    "definition": "η_v = ṁ_air / (ρ × Vd × RPM/2).",
+    "howItWorks": "Perbandingan massa udara aktual masuk terhadap teoritis.",
+    "source": "UIM Komatsu",
+    "tags": [
+      "engine"
+    ],
+    "updatedAt": 1756141200000
+  },
+  {
+    "id": "T0024",
+    "term": "Air Density (ρ)",
+    "category": "Engine",
+    "definition": "ρ ∝ P/T.",
+    "howItWorks": "Kerapatan udara masuk.",
+    "source": "UIM Komatsu",
+    "tags": [
+      "engine"
+    ],
+    "updatedAt": 1756141200000
+  },
+  {
+    "id": "T0025",
+    "term": "Altitude Correction",
+    "category": "Engine",
+    "definition": "Power ≈ Power_sea × f(altitude).",
+    "howItWorks": "Koreksi daya karena ketinggian.",
+    "source": "UIM Komatsu",
+    "tags": [
+      "engine"
+    ],
+    "updatedAt": 1756141200000
+  },
+  {
+    "id": "T0026",
+    "term": "Temperature Correction",
+    "category": "Engine",
+    "definition": "Power ∝ ρ_inlet.",
+    "howItWorks": "Koreksi daya karena temperatur udara masuk.",
+    "source": "UIM Komatsu",
+    "tags": [
+      "engine"
+    ],
+    "updatedAt": 1756141200000
+  },
+  {
+    "id": "T0027",
+    "term": "Gross Horsepower",
+    "category": "Engine",
+    "definition": "Sebelum beban kipas, alternator, pompa.",
+    "howItWorks": "Daya keluaran tanpa beban aksesori.",
+    "source": "UIM Komatsu",
+    "tags": [
+      "engine"
+    ],
+    "updatedAt": 1756141200000
+  },
+  {
+    "id": "T0028",
+    "term": "Net Horsepower",
+    "category": "Engine",
+    "definition": "Lebih realistis di aplikasi.",
+    "howItWorks": "Daya setelah beban aksesori standar.",
+    "source": "UIM Komatsu",
+    "tags": [
+      "engine"
+    ],
+    "updatedAt": 1756141200000
+  },
+  {
+    "id": "T0029",
+    "term": "Flywheel Power",
+    "category": "Engine",
+    "definition": "Angka performa katalog.",
+    "howItWorks": "Daya pada sisi flywheel output.",
+    "source": "UIM Komatsu",
+    "tags": [
+      "engine"
+    ],
+    "updatedAt": 1756141200000
+  },
+  {
+    "id": "T0030",
+    "term": "Accessory Power (Parasitic Loss)",
+    "category": "Engine",
+    "definition": "Mengurangi daya bersih tersedia.",
+    "howItWorks": "Daya yang dikonsumsi aksesori.",
+    "source": "UIM Komatsu",
+    "tags": [
+      "engine"
+    ],
+    "updatedAt": 1756141200000
+  },
+  {
+    "id": "T0031",
+    "term": "Factor Affecting Performance",
+    "category": "Engine",
+    "definition": "T, P, RH udara masuk; back pressure; EGR; kebersihan filter; kualitas bbm.",
+    "howItWorks": "Faktor-faktor yang mempengaruhi performa.",
+    "source": "UIM Komatsu",
+    "tags": [
+      "engine"
+    ],
+    "updatedAt": 1756141200000
+  },
+  {
+    "id": "T0032",
+    "term": "EGR Effect",
+    "category": "Engine",
+    "definition": "Menurunkan NOx, biasanya mengurangi densitas oksigen & daya.",
+    "howItWorks": "Pengaruh EGR pada performa.",
+    "source": "UIM Komatsu",
+    "tags": [
+      "engine"
+    ],
+    "updatedAt": 1756141200000
+  },
+  {
+    "id": "T0033",
+    "term": "Turbocharger Effect",
+    "category": "Engine",
+    "definition": "Menaikkan massa udara → torsi & daya naik.",
+    "howItWorks": "Pengaruh turbo pada performa.",
+    "source": "UIM Komatsu",
+    "tags": [
+      "engine"
+    ],
+    "updatedAt": 1756141200000
+  },
+  {
+    "id": "T0034",
+    "term": "Aftercooler Effect",
+    "category": "Engine",
+    "definition": "Menurunkan T udara → ρ naik → torsi naik.",
+    "howItWorks": "Pengaruh pendinginan udara setelah kompresi.",
+    "source": "UIM Komatsu",
+    "tags": [
+      "engine"
+    ],
+    "updatedAt": 1756141200000
+  },
+  {
+    "id": "T0035",
+    "term": "Rated Power",
+    "category": "Engine",
+    "definition": "Nilai di spesifikasi mesin.",
+    "howItWorks": "Daya nominal kondisi standar.",
+    "source": "UIM Komatsu",
+    "tags": [
+      "engine"
+    ],
+    "updatedAt": 1756141200000
+  },
+  {
+    "id": "T0036",
+    "term": "Engine Load Factor",
+    "category": "Engine",
+    "definition": "LF = P_rata2 / P_rated.",
+    "howItWorks": "Rata‑rata beban terhadap daya terpasang.",
+    "source": "UIM Komatsu",
+    "tags": [
+      "engine"
+    ],
+    "updatedAt": 1756141200000
+  },
+  {
+    "id": "T0037",
+    "term": "Fuel Consumption (Volumetric)",
+    "category": "Engine",
+    "definition": "ṁ_vol = ṁ_mass / ρ_fuel.",
+    "howItWorks": "Konsumsi BBM L/h atau gal/h.",
+    "source": "UIM Komatsu",
+    "tags": [
+      "engine"
+    ],
+    "updatedAt": 1756141200000
+  },
+  {
+    "id": "T0038",
+    "term": "Fuel Density",
+    "category": "Engine",
+    "definition": "Pengaruh konversi massa↔volume.",
+    "howItWorks": "Kerapatan bahan bakar (kg/L).",
+    "source": "UIM Komatsu",
+    "tags": [
+      "engine"
+    ],
+    "updatedAt": 1756141200000
+  },
+  {
+    "id": "T0039",
+    "term": "Combustion Efficiency",
+    "category": "Engine",
+    "definition": "Dipengaruhi pengabutan, swirl, timing injeksi, dll.",
+    "howItWorks": "Efisiensi konversi kimia → panas.",
+    "source": "UIM Komatsu",
+    "tags": [
+      "engine"
+    ],
+    "updatedAt": 1756141200000
+  },
+  {
+    "id": "T0040",
+    "term": "Derate",
+    "category": "Engine",
+    "definition": "Karena overheat, oil pressure low, sensor fault, altitude, dsb.",
+    "howItWorks": "Pengurangan daya oleh kontrol.",
+    "source": "UIM Komatsu",
+    "tags": [
+      "engine"
+    ],
+    "updatedAt": 1756141200000
+  },
+  {
+    "id": "T0041",
+    "term": "Governor Type",
+    "category": "Engine",
+    "definition": "Mekanis/elektronik; mempengaruhi droop & respons.",
+    "howItWorks": "Jenis pengendali putaran.",
+    "source": "UIM Komatsu",
+    "tags": [
+      "engine"
+    ],
+    "updatedAt": 1756141200000
+  },
+  {
+    "id": "T0042",
+    "term": "Transient Response",
+    "category": "Engine",
+    "definition": "Dipengaruhi turbo lag, kontrol bbm, inersia.",
+    "howItWorks": "Respons terhadap perubahan beban mendadak.",
+    "source": "UIM Komatsu",
+    "tags": [
+      "engine"
+    ],
+    "updatedAt": 1756141200000
+  },
+  {
+    "id": "T0043",
+    "term": "Back Pressure (Exhaust)",
+    "category": "Engine",
+    "definition": "Tinggi → daya turun & suhu naik.",
+    "howItWorks": "Tekanan balik di sisi exhaust.",
+    "source": "UIM Komatsu",
+    "tags": [
+      "engine"
+    ],
+    "updatedAt": 1756141200000
+  },
+  {
+    "id": "T0044",
+    "term": "Intake Restriction",
+    "category": "Engine",
+    "definition": "ΔP tinggi → ρ turun → torsi/daya turun.",
+    "howItWorks": "Hambatan sisi hisap/filtrasi.",
+    "source": "UIM Komatsu",
+    "tags": [
+      "engine"
+    ],
+    "updatedAt": 1756141200000
+  },
+  {
+    "id": "T0045",
+    "term": "Ambient Conditions",
+    "category": "Engine",
+    "definition": "Dicatat untuk koreksi ke standar.",
+    "howItWorks": "Kondisi lingkungan (T, P, RH).",
+    "source": "UIM Komatsu",
+    "tags": [
+      "engine"
+    ],
+    "updatedAt": 1756141200000
+  },
+  {
+    "id": "T0046",
+    "term": "Bore",
+    "category": "Engine",
+    "definition": "Ukuran garis tengah lubang silinder; digunakan untuk menghitung displacement bersama stroke.",
+    "howItWorks": "Diameter silinder.",
+    "source": "UIM Komatsu",
+    "tags": [
+      "engine"
+    ],
+    "updatedAt": 1756141200000
+  },
+  {
+    "id": "T0047",
+    "term": "Stroke",
+    "category": "Engine",
+    "definition": "Menentukan volume sapuan; bersama bore mempengaruhi karakter torsi/putaran.",
+    "howItWorks": "Jarak gerak piston dari TDC ke BDC.",
+    "source": "UIM Komatsu",
+    "tags": [
+      "engine"
+    ],
+    "updatedAt": 1756141200000
+  },
+  {
+    "id": "T0048",
+    "term": "Displacement",
+    "category": "Engine",
+    "definition": "Dihitung dari bore dan stroke × jumlah silinder; satuan umum liter atau cm³.",
+    "howItWorks": "Volume total sapuan semua silinder.",
+    "source": "UIM Komatsu",
+    "tags": [
+      "engine"
+    ],
+    "updatedAt": 1756141200000
+  },
+  {
+    "id": "T0049",
+    "term": "Compression Ratio",
+    "category": "Engine",
+    "definition": "Rasio (VBDC/VTDC) mempengaruhi efisiensi termal dan karakter pembakaran.",
+    "howItWorks": "Perbandingan volume silinder saat BDC terhadap TDC.",
+    "source": "UIM Komatsu",
+    "tags": [
+      "engine"
+    ],
+    "updatedAt": 1756141200000
+  },
+  {
+    "id": "T0050",
+    "term": "TDC",
+    "category": "Engine",
+    "definition": "Acuan pengaturan timing dan valve lash.",
+    "howItWorks": "Titik tertinggi posisi piston.",
+    "source": "UIM Komatsu",
+    "tags": [
+      "engine"
+    ],
+    "updatedAt": 1756141200000
+  },
+  {
+    "id": "T0051",
+    "term": "BDC",
+    "category": "Engine",
+    "definition": "Kebalikan TDC; berguna untuk analisis langkah hisap/buang.",
+    "howItWorks": "Titik terendah posisi piston.",
+    "source": "UIM Komatsu",
+    "tags": [
+      "engine"
+    ],
+    "updatedAt": 1756141200000
+  },
+  {
+    "id": "T0052",
+    "term": "Firing Order",
+    "category": "Engine",
+    "definition": "Ditetapkan pabrikan untuk keseimbangan dan kehalusan mesin.",
+    "howItWorks": "Urutan penyalaan/injeksi tiap silinder.",
+    "source": "UIM Komatsu",
+    "tags": [
+      "engine"
+    ],
+    "updatedAt": 1756141200000
+  },
+  {
+    "id": "T0053",
+    "term": "Valve Timing",
+    "category": "Engine",
+    "definition": "Termasuk advance/retard & overlap; diatur profil cam & rasio gear.",
+    "howItWorks": "Waktu buka/tutup katup terhadap sudut crankshaft.",
+    "source": "UIM Komatsu",
+    "tags": [
+      "engine"
+    ],
+    "updatedAt": 1756141200000
+  },
+  {
+    "id": "T0054",
+    "term": "Valve Overlap",
+    "category": "Engine",
+    "definition": "Membantu scavenging dan aliran; mempengaruhi karakter torsi/putaran.",
+    "howItWorks": "Periode saat katup intake & exhaust sama‑sama terbuka.",
+    "source": "UIM Komatsu",
+    "tags": [
+      "engine"
+    ],
+    "updatedAt": 1756141200000
+  },
+  {
+    "id": "T0055",
+    "term": "Valve Lash",
+    "category": "Engine",
+    "definition": "Diukur sesuai spesifikasi untuk kompensasi ekspansi termal.",
+    "howItWorks": "Celah bebas pada mekanisme katup.",
+    "source": "UIM Komatsu",
+    "tags": [
+      "engine"
+    ],
+    "updatedAt": 1756141200000
+  },
+  {
+    "id": "T0056",
+    "term": "Camshaft Lobe",
+    "category": "Engine",
+    "definition": "Menentukan lift dan duration.",
+    "howItWorks": "Profil tonjolan pada camshaft yang menggerakkan katup.",
+    "source": "UIM Komatsu",
+    "tags": [
+      "engine"
+    ],
+    "updatedAt": 1756141200000
+  },
+  {
+    "id": "T0057",
+    "term": "Base Circle",
+    "category": "Engine",
+    "definition": "Menjadi referensi saat mengukur lash.",
+    "howItWorks": "Bagian lingkar cam tanpa lift.",
+    "source": "UIM Komatsu",
+    "tags": [
+      "engine"
+    ],
+    "updatedAt": 1756141200000
+  },
+  {
+    "id": "T0058",
+    "term": "Lift",
+    "category": "Engine",
+    "definition": "Dipengaruhi profil lobe dan rasio rocker.",
+    "howItWorks": "Jarak maksimum pembukaan katup.",
+    "source": "UIM Komatsu",
+    "tags": [
+      "engine"
+    ],
+    "updatedAt": 1756141200000
+  },
+  {
+    "id": "T0059",
+    "term": "Duration",
+    "category": "Engine",
+    "definition": "Durasi lebih lama meningkatkan aliran putaran tinggi.",
+    "howItWorks": "Sudut engkol selama katup terbuka.",
+    "source": "UIM Komatsu",
+    "tags": [
+      "engine"
+    ],
+    "updatedAt": 1756141200000
+  },
+  {
+    "id": "T0060",
+    "term": "Timing Gear",
+    "category": "Engine",
+    "definition": "Menjaga rasio 1:2 (4‑tak); menggerakkan pompa bantu.",
+    "howItWorks": "Rangkaian gear sinkronisasi camshaft–crankshaft.",
+    "source": "UIM Komatsu",
+    "tags": [
+      "engine"
+    ],
+    "updatedAt": 1756141200000
+  },
+  {
+    "id": "T0061",
+    "term": "Backlash",
+    "category": "Engine",
+    "definition": "Perlu batas; berlebihan → noise & keausan.",
+    "howItWorks": "Celah bebas antar gigi.",
+    "source": "UIM Komatsu",
+    "tags": [
+      "engine"
+    ],
+    "updatedAt": 1756141200000
+  },
+  {
+    "id": "T0062",
+    "term": "Main Journal",
+    "category": "Engine",
+    "definition": "Menopang poros engkol terhadap blok.",
+    "howItWorks": "Jurnal/bantalan utama crankshaft.",
+    "source": "UIM Komatsu",
+    "tags": [
+      "engine"
+    ],
+    "updatedAt": 1756141200000
+  },
+  {
+    "id": "T0063",
+    "term": "Rod Journal",
+    "category": "Engine",
+    "definition": "Menentukan stroke; butuh pelumasan tekanan.",
+    "howItWorks": "Jurnal ujung besar connecting rod.",
+    "source": "UIM Komatsu",
+    "tags": [
+      "engine"
+    ],
+    "updatedAt": 1756141200000
+  },
+  {
+    "id": "T0064",
+    "term": "Thrust Bearing",
+    "category": "Engine",
+    "definition": "Mengontrol end play crank.",
+    "howItWorks": "Bantalan penahan gaya aksial crankshaft.",
+    "source": "UIM Komatsu",
+    "tags": [
+      "engine"
+    ],
+    "updatedAt": 1756141200000
+  },
+  {
+    "id": "T0065",
+    "term": "End Play",
+    "category": "Engine",
+    "definition": "Diukur dengan dial gauge.",
+    "howItWorks": "Gerak bebas aksial crankshaft.",
+    "source": "UIM Komatsu",
+    "tags": [
+      "engine"
+    ],
+    "updatedAt": 1756141200000
+  },
+  {
+    "id": "T0066",
+    "term": "Ring End Gap",
+    "category": "Engine",
+    "definition": "Butuh toleransi untuk ekspansi termal.",
+    "howItWorks": "Celah ujung ring saat terpasang.",
+    "source": "UIM Komatsu",
+    "tags": [
+      "engine"
+    ],
+    "updatedAt": 1756141200000
+  },
+  {
+    "id": "T0067",
+    "term": "Crosshatch",
+    "category": "Engine",
+    "definition": "Membantu retensi oli & run‑in ring.",
+    "howItWorks": "Pola goresan pada dinding liner.",
+    "source": "UIM Komatsu",
+    "tags": [
+      "engine"
+    ],
+    "updatedAt": 1756141200000
+  },
+  {
+    "id": "T0068",
+    "term": "Blow-by",
+    "category": "Engine",
+    "definition": "Naik bila ring/liner aus; indikator kondisi mesin.",
+    "howItWorks": "Kebocoran gas pembakaran melewati ring.",
+    "source": "UIM Komatsu",
+    "tags": [
+      "engine"
+    ],
+    "updatedAt": 1756141200000
+  },
+  {
+    "id": "T0069",
+    "term": "Plastigage",
+    "category": "Engine",
+    "definition": "Ditekan antara jurnal dan bearing lalu dibaca skalanya.",
+    "howItWorks": "Benang plastik cek clearance bearing.",
+    "source": "UIM Komatsu",
+    "tags": [
+      "engine"
+    ],
+    "updatedAt": 1756141200000
+  },
+  {
+    "id": "T0070",
+    "term": "Cylinder Head Group",
+    "category": "Engine",
+    "definition": "Menjadi rumah komponen valvetrain, saluran masuk/keluar, dan ruang bakar bagian atas.",
+    "howItWorks": "Menjadi rumah komponen valvetrain, saluran masuk/keluar, dan ruang bakar bagian atas.",
+    "source": "UIM Komatsu",
+    "tags": [
+      "engine"
+    ],
+    "updatedAt": 1756141200000
+  },
+  {
+    "id": "T0071",
+    "term": "Cylinder Head",
+    "category": "Engine",
+    "definition": "Struktur kepala silinder yang menutup ruang bakar dan menampung saluran intake/exhaust.",
+    "howItWorks": "Struktur kepala silinder yang menutup ruang bakar dan menampung saluran intake/exhaust.",
+    "source": "UIM Komatsu",
+    "tags": [
+      "engine"
+    ],
+    "updatedAt": 1756141200000
+  },
+  {
+    "id": "T0072",
+    "term": "Valve Seat",
+    "category": "Engine",
+    "definition": "Memberi permukaan duduk rapat bagi katup untuk sealing gas pembakaran.",
+    "howItWorks": "Memberi permukaan duduk rapat bagi katup untuk sealing gas pembakaran.",
+    "source": "UIM Komatsu",
+    "tags": [
+      "engine"
+    ],
+    "updatedAt": 1756141200000
+  },
+  {
+    "id": "T0073",
+    "term": "Valve",
+    "category": "Engine",
+    "definition": "Mengatur bukaan/penutupan aliran udara masuk dan gas buang.",
+    "howItWorks": "Mengatur bukaan/penutupan aliran udara masuk dan gas buang.",
+    "source": "UIM Komatsu",
+    "tags": [
+      "engine"
+    ],
+    "updatedAt": 1756141200000
+  },
+  {
+    "id": "T0074",
+    "term": "Rocker Arm",
+    "category": "Engine",
+    "definition": "Mengubah gerak linear tappet/push rod menjadi tekanan pada ujung katup.",
+    "howItWorks": "Mengubah gerak linear tappet/push rod menjadi tekanan pada ujung katup.",
+    "source": "UIM Komatsu",
+    "tags": [
+      "engine"
+    ],
+    "updatedAt": 1756141200000
+  },
+  {
+    "id": "T0075",
+    "term": "Nozzle Holder Sleeve",
+    "category": "Engine",
+    "definition": "Rumah/sleeve dudukan nozzle/injector agar presisi dan sealing baik.",
+    "howItWorks": "Rumah/sleeve dudukan nozzle/injector agar presisi dan sealing baik.",
+    "source": "UIM Komatsu",
+    "tags": [
+      "engine"
+    ],
+    "updatedAt": 1756141200000
+  },
+  {
+    "id": "T0076",
+    "term": "Cylinder Head Gasket",
+    "category": "Engine",
+    "definition": "Memberi sealing antara head dan block terhadap kompresi, oli, dan coolant.",
+    "howItWorks": "Memberi sealing antara head dan block terhadap kompresi, oli, dan coolant.",
+    "source": "UIM Komatsu",
+    "tags": [
+      "engine"
+    ],
+    "updatedAt": 1756141200000
+  },
+  {
+    "id": "T0077",
+    "term": "Cylinder Block",
+    "category": "Engine",
+    "definition": "Badan utama mesin yang menampung silinder, oil gallery, dan water jacket.",
+    "howItWorks": "Badan utama mesin yang menampung silinder, oil gallery, dan water jacket.",
+    "source": "UIM Komatsu",
+    "tags": [
+      "engine"
+    ],
+    "updatedAt": 1756141200000
+  },
+  {
+    "id": "T0078",
+    "term": "Cylinder Liner",
+    "category": "Engine",
+    "definition": "Selongsong silinder sebagai permukaan gesek piston & ring.",
+    "howItWorks": "Selongsong silinder sebagai permukaan gesek piston & ring.",
+    "source": "UIM Komatsu",
+    "tags": [
+      "engine"
+    ],
+    "updatedAt": 1756141200000
+  },
+  {
+    "id": "T0079",
+    "term": "Piston",
+    "category": "Engine",
+    "definition": "Menerima gaya pembakaran dan menyalurkannya ke connecting rod.",
+    "howItWorks": "Menerima gaya pembakaran dan menyalurkannya ke connecting rod.",
+    "source": "UIM Komatsu",
+    "tags": [
+      "engine"
+    ],
+    "updatedAt": 1756141200000
+  },
+  {
+    "id": "T0080",
+    "term": "Piston Ring",
+    "category": "Engine",
+    "definition": "Sealing kompresi dan kontrol oli di dinding silinder.",
+    "howItWorks": "Sealing kompresi dan kontrol oli di dinding silinder.",
+    "source": "UIM Komatsu",
+    "tags": [
+      "engine"
+    ],
+    "updatedAt": 1756141200000
+  },
+  {
+    "id": "T0081",
+    "term": "Connecting Rod",
+    "category": "Engine",
+    "definition": "Menyalurkan gaya dari piston ke crankshaft.",
+    "howItWorks": "Menyalurkan gaya dari piston ke crankshaft.",
+    "source": "UIM Komatsu",
+    "tags": [
+      "engine"
+    ],
+    "updatedAt": 1756141200000
+  },
+  {
+    "id": "T0082",
+    "term": "Crankshaft",
+    "category": "Engine",
+    "definition": "Mengubah gerak translasi piston menjadi putaran.",
+    "howItWorks": "Mengubah gerak translasi piston menjadi putaran.",
+    "source": "UIM Komatsu",
+    "tags": [
+      "engine"
+    ],
+    "updatedAt": 1756141200000
+  },
+  {
+    "id": "T0083",
+    "term": "Main Bearing (Con-rod Bearing)",
+    "category": "Engine",
+    "definition": "Menopang poros engkol & ujung besar con‑rod.",
+    "howItWorks": "Menopang poros engkol & ujung besar con‑rod.",
+    "source": "UIM Komatsu",
+    "tags": [
+      "engine"
+    ],
+    "updatedAt": 1756141200000
+  },
+  {
+    "id": "T0084",
+    "term": "Flywheel Group",
+    "category": "Engine",
+    "definition": "Menyimpan inersia untuk menstabilkan putaran & meneruskan torsi.",
+    "howItWorks": "Menyimpan inersia untuk menstabilkan putaran & meneruskan torsi.",
+    "source": "UIM Komatsu",
+    "tags": [
+      "engine"
+    ],
+    "updatedAt": 1756141200000
+  },
+  {
+    "id": "T0085",
+    "term": "Damper",
+    "category": "Engine",
+    "definition": "Meredam osilasi torsi pada crankshaft.",
+    "howItWorks": "Meredam osilasi torsi pada crankshaft.",
+    "source": "UIM Komatsu",
+    "tags": [
+      "engine"
+    ],
+    "updatedAt": 1756141200000
+  },
+  {
+    "id": "T0086",
+    "term": "Balancer Shaft",
+    "category": "Engine",
+    "definition": "Menyeimbangkan getaran orde tertentu pada mesin.",
+    "howItWorks": "Menyeimbangkan getaran orde tertentu pada mesin.",
+    "source": "UIM Komatsu",
+    "tags": [
+      "engine"
+    ],
+    "updatedAt": 1756141200000
+  },
+  {
+    "id": "T0087",
+    "term": "Camshaft",
+    "category": "Engine",
+    "definition": "Mengatur timing bukaan katup.",
+    "howItWorks": "Mengatur timing bukaan katup.",
+    "source": "UIM Komatsu",
+    "tags": [
+      "engine"
+    ],
+    "updatedAt": 1756141200000
+  },
+  {
+    "id": "T0088",
+    "term": "Tappet (Lifter)",
+    "category": "Engine",
+    "definition": "Meneruskan profil lobe cam ke push rod/rocker atau langsung ke valve.",
+    "howItWorks": "Meneruskan profil lobe cam ke push rod/rocker atau langsung ke valve.",
+    "source": "UIM Komatsu",
+    "tags": [
+      "engine"
+    ],
+    "updatedAt": 1756141200000
+  },
+  {
+    "id": "T0089",
+    "term": "PTO Gearing",
+    "category": "Engine",
+    "definition": "Mengambil daya dari mesin untuk peralatan bantu.",
+    "howItWorks": "Mengambil daya dari mesin untuk peralatan bantu.",
+    "source": "UIM Komatsu",
+    "tags": [
+      "engine"
+    ],
+    "updatedAt": 1756141200000
+  },
+  {
+    "id": "T0090",
+    "term": "Valve Guide",
+    "category": "Engine",
+    "definition": "Memandu batang katup agar lurus dan mengontrol pelumasan pada stem.",
+    "howItWorks": "Memandu batang katup agar lurus dan mengontrol pelumasan pada stem.",
+    "source": "UIM Komatsu",
+    "tags": [
+      "engine"
+    ],
+    "updatedAt": 1756141200000
+  },
+  {
+    "id": "T0091",
+    "term": "Push Rod",
+    "category": "Engine",
+    "definition": "Meneruskan gerak dari tappet ke rocker arm (tipe OHV).",
+    "howItWorks": "Meneruskan gerak dari tappet ke rocker arm (tipe OHV).",
+    "source": "UIM Komatsu",
+    "tags": [
+      "engine"
+    ],
+    "updatedAt": 1756141200000
+  },
+  {
+    "id": "T0092",
+    "term": "Rocker Shaft",
+    "category": "Engine",
+    "definition": "Poros tempat rocker arm berputar.",
+    "howItWorks": "Poros tempat rocker arm berputar.",
+    "source": "UIM Komatsu",
+    "tags": [
+      "engine"
+    ],
+    "updatedAt": 1756141200000
+  },
+  {
+    "id": "T0093",
+    "term": "Piston Pin (Gudgeon Pin)",
+    "category": "Engine",
+    "definition": "Menghubungkan piston dengan connecting rod.",
+    "howItWorks": "Menghubungkan piston dengan connecting rod.",
+    "source": "UIM Komatsu",
+    "tags": [
+      "engine"
+    ],
+    "updatedAt": 1756141200000
+  },
+  {
+    "id": "T0094",
+    "term": "Crankcase",
+    "category": "Engine",
+    "definition": "Ruang bawah blok untuk menampung oli dan housing crankshaft.",
+    "howItWorks": "Ruang bawah blok untuk menampung oli dan housing crankshaft.",
+    "source": "UIM Komatsu",
+    "tags": [
+      "engine"
+    ],
+    "updatedAt": 1756141200000
+  }
+]
