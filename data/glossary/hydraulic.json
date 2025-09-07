@@ -1,0 +1,1194 @@
+[
+  {
+    "id": "H0001",
+    "term": "External Gear Pump (Fixed Displacement)",
+    "category": "Hydraulic",
+    "definition": "Pompa gear eksternal dengan displacement tetap; flow berbanding lurus dengan kecepatan putar (rpm) dan displacement teoretis.",
+    "howItWorks": "Sepasang gear saling bertaut mendorong oli dari sisi inlet ke outlet. Celah di antara puncak gigi dan housing serta celah samping (side clearance) menjadi jalur kebocoran internal. Karena displacement tetap, kontrol kecepatan aktuator dilakukan oleh valve (throttle/relief), bukan dengan mengubah displacement pada pompa.",
+    "source": "SEULU6002-0 — Hydraulic Gear Pump (UIM Komatsu)",
+    "tags": [
+      "gear pump",
+      "fixed",
+      "displacement",
+      "flow"
+    ],
+    "updatedAt": 1757252219542
+  },
+  {
+    "id": "H0002",
+    "term": "KA Series Gear Pump",
+    "category": "Hydraulic",
+    "definition": "Seri gear pump Komatsu yang menggunakan desain side plate/pressure plate untuk meningkatkan efisiensi volumetris.",
+    "howItWorks": "Side plate ditekan oleh tekanan outlet ke permukaan samping gear, membentuk film oli tipis sebagai bantalan hidrodinamik. Mekanisme ini mengurangi kebocoran samping saat tekanan naik, menjaga efisiensi pada rentang tekanan kerja tinggi. Clearances dibuat kompromi agar start-up tidak seret namun bocor tetap minimal pada suhu operasi.",
+    "source": "SEULU6002-0 — Hydraulic Gear Pump (UIM Komatsu)",
+    "tags": [
+      "KA series",
+      "side plate",
+      "efficiency"
+    ],
+    "updatedAt": 1757252219542
+  },
+  {
+    "id": "H0003",
+    "term": "PA Series Gear Pump",
+    "category": "Hydraulic",
+    "definition": "Seri gear pump Komatsu dengan peningkatan pada jalur balansi dan geometri port untuk mengurangi pulsasi dan noise.",
+    "howItWorks": "Porting inlet/outlet dan balance pocket dioptimasi agar distribusi tekanan di sekitar side plate seragam. Hal ini menekan defleksi komponen, menurunkan kebocoran internal, dan mengurangi cavitation pada rpm tinggi. Hasilnya adalah operasi lebih halus, noise berkurang, dan umur pakai meningkat.",
+    "source": "SEULU6002-0 — Hydraulic Gear Pump (UIM Komatsu)",
+    "tags": [
+      "PA series",
+      "porting",
+      "balance pocket"
+    ],
+    "updatedAt": 1757252219542
+  },
+  {
+    "id": "H0004",
+    "term": "Theoretical Displacement (Gear Pump)",
+    "category": "Hydraulic",
+    "definition": "Volume fluida yang dipindahkan per putaran tanpa memperhitungkan kebocoran (cm³/rev).",
+    "howItWorks": "Secara ideal dihitung dari geometri gigi (lebar, modul, jumlah gigi) dan ruang di antara gigi dengan housing. Flow teoretis Q_th = Displacement × rpm. Flow aktual lebih kecil karena kebocoran internal melalui celah puncak gigi (tip clearance) dan celah samping (side clearance).",
+    "source": "SEULU6002-0 — Hydraulic Gear Pump (UIM Komatsu)",
+    "tags": [
+      "displacement",
+      "theoretical",
+      "cm3/rev"
+    ],
+    "updatedAt": 1757252219542
+  },
+  {
+    "id": "H0005",
+    "term": "Volumetric Efficiency (Gear Pump)",
+    "category": "Hydraulic",
+    "definition": "Perbandingan antara flow aktual dan flow teoretis pompa pada kondisi tertentu.",
+    "howItWorks": "Efisiensi volumetris η_v menurun ketika tekanan meningkat (kebocoran internal naik) atau viskositas menurun (celah efektif membesar). Desain pressure-loaded side plate membantu mempertahankan η_v pada tekanan menengah–tinggi dengan menekan jalur bocor. Aeration/cavitation juga menurunkan η_v karena sebagian volume berisi gas.",
+    "source": "SEULU6002-0 — Hydraulic Gear Pump (UIM Komatsu)",
+    "tags": [
+      "efficiency",
+      "ηv",
+      "leakage"
+    ],
+    "updatedAt": 1757252219542
+  },
+  {
+    "id": "H0006",
+    "term": "Mechanical Efficiency (Gear Pump)",
+    "category": "Hydraulic",
+    "definition": "Rasio daya hidrolik keluar terhadap daya mekanik masuk setelah dikurangi losses gesek.",
+    "howItWorks": "Kerugian mekanik berasal dari gesekan gigi, bantalan, dan side plate. Viskositas terlalu tinggi menaikkan torsi gesek dan rugi mekanik; terlalu rendah menurunkan film pelumas sehingga keausan meningkat. Total efisiensi η_total = η_v × η_m.",
+    "source": "SEULU6002-0 — Hydraulic Gear Pump (UIM Komatsu)",
+    "tags": [
+      "efficiency",
+      "ηm",
+      "friction"
+    ],
+    "updatedAt": 1757252219542
+  },
+  {
+    "id": "H0007",
+    "term": "Side Plate / Wear Plate (Pressure-Loaded)",
+    "category": "Hydraulic",
+    "definition": "Pelat penekan samping gear yang memanfaatkan tekanan outlet untuk mengurangi kebocoran samping dan menopang gear.",
+    "howItWorks": "Kantung tekanan (balance pocket) menyalurkan sebagian tekanan outlet ke belakang side plate. Tekanan ini mendorong pelat mendekati permukaan samping gear, membentuk celah oli yang sangat tipis sebagai bantalan. Sistem ini adaptif terhadap perubahan tekanan, menjaga efisiensi dan menekan scoring.",
+    "source": "SEULU6002-0 — Hydraulic Gear Pump (UIM Komatsu)",
+    "tags": [
+      "side plate",
+      "wear plate",
+      "balance"
+    ],
+    "updatedAt": 1757252219542
+  },
+  {
+    "id": "H0008",
+    "term": "Tip Clearance",
+    "category": "Hydraulic",
+    "definition": "Celah antara puncak gigi gear dan permukaan housing/crescent di sekitarnya.",
+    "howItWorks": "Celah ini diperlukan untuk mencegah kontak logam langsung dan memberi ruang untuk film pelumas. Namun celah yang terlalu besar meningkatkan kebocoran dan menurunkan kemampuan membangun tekanan. Clearances dipengaruhi ekspansi termal dan keausan selama usia pakai.",
+    "source": "SEULU6002-0 — Hydraulic Gear Pump (UIM Komatsu)",
+    "tags": [
+      "clearance",
+      "tip",
+      "leakage"
+    ],
+    "updatedAt": 1757252219542
+  },
+  {
+    "id": "H0009",
+    "term": "Side Clearance",
+    "category": "Hydraulic",
+    "definition": "Celah antara sisi gigi dan permukaan side plate/wear plate.",
+    "howItWorks": "Menentukan besarnya kebocoran samping dan gesekan. Dengan pressure-loaded plate, celah efektif menyesuaikan terhadap tekanan kerja. Minyak membentuk film hidrodinamik yang memisahkan permukaan untuk menghindari scoring, sekaligus meminimalkan kebocoran.",
+    "source": "SEULU6002-0 — Hydraulic Gear Pump (UIM Komatsu)",
+    "tags": [
+      "clearance",
+      "side",
+      "hydrodynamic film"
+    ],
+    "updatedAt": 1757252219542
+  },
+  {
+    "id": "H0010",
+    "term": "Inlet Port & Suction Line Design",
+    "category": "Hydraulic",
+    "definition": "Rancangan jalur hisap menuju pompa agar kerugian tekanan minimal dan suplai oli penuh.",
+    "howItWorks": "Harus menggunakan hose/bore besar, jalur pendek, radius belokan lembut, dan strainer yang tidak tersumbat. Kehilangan tekanan yang besar menurunkan tekanan absolut di inlet sehingga memicu cavitation. Breather tank yang buruk juga dapat menciptakan vakum sehingga pasokan oli terganggu.",
+    "source": "SEULU6002-0 — Hydraulic Gear Pump (UIM Komatsu)",
+    "tags": [
+      "suction",
+      "inlet",
+      "strainer"
+    ],
+    "updatedAt": 1757252219542
+  },
+  {
+    "id": "H0011",
+    "term": "Cavitation at Inlet",
+    "category": "Hydraulic",
+    "definition": "Pembentukan dan kolaps gelembung uap akibat tekanan lokal turun di bawah vapor pressure pada sisi hisap.",
+    "howItWorks": "Terjadi saat head hisap tidak cukup, strainer tersumbat, oli terlalu kental pada start dingin, atau rpm terlalu tinggi. Gelembung kolaps di zona tekanan tinggi, menyebabkan erosi, noise tinggi, dan keausan cepat pada side plate dan gigi.",
+    "source": "SEULU6002-0 — Hydraulic Gear Pump (UIM Komatsu)",
+    "tags": [
+      "cavitation",
+      "erosion",
+      "noise"
+    ],
+    "updatedAt": 1757252219542
+  },
+  {
+    "id": "H0012",
+    "term": "Aeration / Foamy Oil",
+    "category": "Hydraulic",
+    "definition": "Udara terlarut/terjebak masuk ke oli, menimbulkan foam dan kompresibilitas.",
+    "howItWorks": "Kebocoran di jalur hisap atau permukaan seal menyebabkan udara tersedot. Foam menurunkan efisiensi volumetris, memperparah kavitasi sekunder, dan mempercepat oksidasi oli. Periksa clamp, sambungan hisap, oil level, serta kondisinya breather.",
+    "source": "SEULU6002-0 — Hydraulic Gear Pump (UIM Komatsu)",
+    "tags": [
+      "aeration",
+      "foam",
+      "seal"
+    ],
+    "updatedAt": 1757252219542
+  },
+  {
+    "id": "H0013",
+    "term": "Relief Valve Interaction",
+    "category": "Hydraulic",
+    "definition": "Kinerja pompa bergantung pada setelan relief valve sistem untuk membatasi tekanan puncak.",
+    "howItWorks": "Jika relief macet tertutup, pompa dapat mengalami tekanan berlebih sehingga side plate terbakar (scuffing) dan shaft seal jebol. Jika terlalu rendah, sistem kekurangan gaya. Setelan harus sesuai spesifikasi dan diuji pada oli/temperatur kerja.",
+    "source": "SEULU6002-0 — Hydraulic Gear Pump (UIM Komatsu)",
+    "tags": [
+      "relief valve",
+      "pressure",
+      "protection"
+    ],
+    "updatedAt": 1757252219542
+  },
+  {
+    "id": "H0014",
+    "term": "Viscosity Effect on Leakage",
+    "category": "Hydraulic",
+    "definition": "Viskositas mempengaruhi kebocoran internal dan rugi mekanik.",
+    "howItWorks": "Oli lebih kental menurunkan kebocoran sehingga η_v naik, tetapi torsi gesek meningkat menurunkan η_m. Oli terlalu encer pada temperatur tinggi meningkatkan kebocoran, menurunkan tekanan, dan memicu film breakdown. Pilih viskositas sesuai kurva rekomendasi pabrikan.",
+    "source": "SEULU6002-0 — Hydraulic Gear Pump (UIM Komatsu)",
+    "tags": [
+      "viscosity",
+      "ηv",
+      "ηm"
+    ],
+    "updatedAt": 1757252219542
+  },
+  {
+    "id": "H0015",
+    "term": "Thermal Expansion & Clearances",
+    "category": "Hydraulic",
+    "definition": "Ekspansi termal komponen memodifikasi clearances internal selama operasi.",
+    "howItWorks": "Pada suhu operasi, housing dan gear mengembang berbeda. Desain clearances cold-start harus memastikan tidak terjadi kontak logam (seizure), tetapi cukup kecil saat panas agar kebocoran rendah. Ini alasan pentingnya warm-up dan pemilihan oli yang tepat.",
+    "source": "SEULU6002-0 — Hydraulic Gear Pump (UIM Komatsu)",
+    "tags": [
+      "thermal",
+      "clearance",
+      "warm-up"
+    ],
+    "updatedAt": 1757252219542
+  },
+  {
+    "id": "H0016",
+    "term": "Self-Priming & Priming Procedure",
+    "category": "Hydraulic",
+    "definition": "Gear pump umumnya self-priming namun tetap membutuhkan kondisi hisap yang baik untuk mengeluarkan udara.",
+    "howItWorks": "Saat komisioning atau setelah penggantian hose, isi jalur hisap dan casing dengan oli untuk mempercepat priming. Putar pada rpm rendah terlebih dahulu, pantau noise dan tekanan. Hindari running dry yang dapat merusak side plate dalam hitungan detik.",
+    "source": "SEULU6002-0 — Hydraulic Gear Pump (UIM Komatsu)",
+    "tags": [
+      "priming",
+      "commissioning"
+    ],
+    "updatedAt": 1757252219542
+  },
+  {
+    "id": "H0017",
+    "term": "Balance Pocket / Bypass Groove",
+    "category": "Hydraulic",
+    "definition": "Kantung dan alur kecil yang menyalurkan tekanan untuk menyeimbangkan gaya pada side plate dan mengurangi pulsasi.",
+    "howItWorks": "Sebagian tekanan outlet dialirkan ke area belakang pelat untuk mengontrol gaya kontak. Alur bypass menghaluskan transisi porting dan menurunkan pulsasi aliran sehingga noise berkurang dan beban ke valve downstream lebih stabil.",
+    "source": "SEULU6002-0 — Hydraulic Gear Pump (UIM Komatsu)",
+    "tags": [
+      "balance pocket",
+      "bypass groove",
+      "pulsation"
+    ],
+    "updatedAt": 1757252219542
+  },
+  {
+    "id": "H0018",
+    "term": "Suction Strainer & Breather",
+    "category": "Hydraulic",
+    "definition": "Strainer di jalur hisap dan breather tank yang sehat adalah prasyarat mencegah kavitasi dan aerasi.",
+    "howItWorks": "Strainer menahan partikel besar; breather memastikan tekanan tank dekat atmosfer. Strainer tersumbat atau breather macet menciptakan vakum yang menghambat masuknya oli, memicu kavitasi dan foamy oil, lalu merusak gear/side plate.",
+    "source": "SEULU6002-0 — Hydraulic Gear Pump (UIM Komatsu)",
+    "tags": [
+      "strainer",
+      "breather",
+      "maintenance"
+    ],
+    "updatedAt": 1757252219542
+  },
+  {
+    "id": "H0019",
+    "term": "Direct-Acting Relief Valve",
+    "category": "Hydraulic",
+    "definition": "Relief valve tipe poppet/spool yang langsung dibuka oleh gaya tekanan melawan pegas.",
+    "howItWorks": "Saat tekanan sistem mencapai set point, gaya fluida mengatasi gaya pegas dan poppet terangkat, mengalirkan oli ke tank. Respon cepat namun lebih sensitif terhadap chatter pada aliran besar. Cocok sebagai proteksi lokal atau untuk flow kecil-menengah.",
+    "source": "SEULU6004-0 — Hydraulic Control Valves (UIM Komatsu)",
+    "tags": [
+      "relief",
+      "direct-acting",
+      "poppet"
+    ],
+    "updatedAt": 1757252219542
+  },
+  {
+    "id": "H0020",
+    "term": "Pilot-Operated Relief Valve (Two-Stage)",
+    "category": "Hydraulic",
+    "definition": "Relief dua tahap: pilot kecil mengendalikan bukaan spool utama agar stabil pada flow besar.",
+    "howItWorks": "Pilot membuka terlebih dahulu dan menurunkan tekanan di atas spool utama, sehingga spool utama terdorong terbuka halus. Desain ini memberikan stabilitas, histeresis rendah, dan noise kecil pada debit tinggi dibanding direct-acting.",
+    "source": "SEULU6004-0 — Hydraulic Control Valves (UIM Komatsu)",
+    "tags": [
+      "relief",
+      "pilot-operated",
+      "two-stage"
+    ],
+    "updatedAt": 1757252219542
+  },
+  {
+    "id": "H0021",
+    "term": "Pressure Reducing Valve",
+    "category": "Hydraulic",
+    "definition": "Katup yang menurunkan dan menstabilkan tekanan downstream lebih rendah dari supply.",
+    "howItWorks": "Memanfaatkan pegas dan umpan balik tekanan downstream untuk memodulasi posisi spool. Saat tekanan downstream naik melebihi set point, katup menutup sebagian sehingga menjaga tekanan tetap pada nilai target.",
+    "source": "SEULU6004-0 — Hydraulic Control Valves (UIM Komatsu)",
+    "tags": [
+      "reducing",
+      "downstream",
+      "stabilize"
+    ],
+    "updatedAt": 1757252219542
+  },
+  {
+    "id": "H0022",
+    "term": "Sequence Valve",
+    "category": "Hydraulic",
+    "definition": "Katup yang memaksa operasi suatu aktuator terjadi setelah tekanan tertentu tercapai pada aktuator lain.",
+    "howItWorks": "Saat tekanan upstream mencapai nilai setelan, valve membuka dan mengalirkan oli ke sirkuit kedua. Digunakan untuk urutan kerja, misal penjepit (clamp) dulu baru pendorong (ram).",
+    "source": "SEULU6004-0 — Hydraulic Control Valves (UIM Komatsu)",
+    "tags": [
+      "sequence",
+      "logic",
+      "timing"
+    ],
+    "updatedAt": 1757252219542
+  },
+  {
+    "id": "H0023",
+    "term": "Unloader Valve (Hydraulic)",
+    "category": "Hydraulic",
+    "definition": "Katup yang mengalihkan aliran kembali ke tank saat beban tidak aktif agar losses rendah.",
+    "howItWorks": "Membuka pada sinyal pilot/tekanan tertentu, membuat pompa bekerja pada tekanan rendah (standby). Saat ada perintah kerja, sinyal berubah dan valve menutup, mengizinkan tekanan naik ke sirkuit kerja.",
+    "source": "SEULU6004-0 — Hydraulic Control Valves (UIM Komatsu)",
+    "tags": [
+      "unloader",
+      "standby",
+      "efficiency"
+    ],
+    "updatedAt": 1757252219542
+  },
+  {
+    "id": "H0024",
+    "term": "Counterbalance Valve",
+    "category": "Hydraulic",
+    "definition": "Katup penahan beban untuk mencegah runaway load dan memungkinkan gerak terkendali.",
+    "howItWorks": "Menahan aliran keluar dari aktuator sampai ada tekanan pilot yang cukup untuk membuka. Set point biasanya beberapa bar di atas beban statik agar stabil namun tidak boros energi.",
+    "source": "SEULU6004-0 — Hydraulic Control Valves (UIM Komatsu)",
+    "tags": [
+      "load-holding",
+      "boom",
+      "safety"
+    ],
+    "updatedAt": 1757252219542
+  },
+  {
+    "id": "H0025",
+    "term": "Check Valve",
+    "category": "Hydraulic",
+    "definition": "Katup satu arah untuk mencegah aliran balik dan menjaga kolom oli.",
+    "howItWorks": "Poppet/ball ditekan pegas menutup jalur saat aliran balik terjadi. Dipasang paralel di port-ports DCV untuk menjaga posisi aktuator dan mencegah kavitasi saat switching.",
+    "source": "SEULU6004-0 — Hydraulic Control Valves (UIM Komatsu)",
+    "tags": [
+      "check",
+      "non-return"
+    ],
+    "updatedAt": 1757252219542
+  },
+  {
+    "id": "H0026",
+    "term": "Suction (Make-up) Valve",
+    "category": "Hydraulic",
+    "definition": "Katup make-up yang memasok oli dari tank ke sisi bertekanan negatif untuk mencegah kavitasi.",
+    "howItWorks": "Saat tekanan di port turun di bawah tekanan tank, valve terbuka memasukkan oli. Umum pada sirkuit motor/cylinder dengan kemungkinan tercipta vakum saat deselerasi atau regenerasi.",
+    "source": "SEULU6004-0 — Hydraulic Control Valves (UIM Komatsu)",
+    "tags": [
+      "make-up",
+      "anti-cavitation",
+      "suction"
+    ],
+    "updatedAt": 1757252219542
+  },
+  {
+    "id": "H0027",
+    "term": "Anti-Shock / Cushion Valve",
+    "category": "Hydraulic",
+    "definition": "Katup yang membatasi lonjakan tekanan (surge) saat spool menutup/beralih cepat.",
+    "howItWorks": "Bekerja seperti relief lokal berespon cepat atau dengan orifice/cushioning untuk menghaluskan transien tekanan, melindungi hose dan komponen dari water hammer.",
+    "source": "SEULU6004-0 — Hydraulic Control Valves (UIM Komatsu)",
+    "tags": [
+      "shock",
+      "surge",
+      "protection"
+    ],
+    "updatedAt": 1757252219542
+  },
+  {
+    "id": "H0028",
+    "term": "Flow Control Valve (Needle/Throttle)",
+    "category": "Hydraulic",
+    "definition": "Katup pembatas debit untuk mengatur kecepatan aktuator.",
+    "howItWorks": "Menggunakan orifice variabel. Pada meter-in, flow dibatasi sebelum aktuator; pada meter-out, flow keluar dibatasi untuk kontrol yang lebih stabil pada load overrunning. Kekurangannya sensitif terhadap perubahan beban kecuali dikompensasi tekanan.",
+    "source": "SEULU6004-0 — Hydraulic Control Valves (UIM Komatsu)",
+    "tags": [
+      "flow control",
+      "needle",
+      "meter-in",
+      "meter-out"
+    ],
+    "updatedAt": 1757252219542
+  },
+  {
+    "id": "H0029",
+    "term": "Pressure-Compensated Flow Control",
+    "category": "Hydraulic",
+    "definition": "Flow control yang mempertahankan ΔP konstan pada orifice sehingga flow stabil meskipun beban berubah.",
+    "howItWorks": "Kompensator memodulasi bukaan berdasarkan selisih tekanan. Hasilnya, kecepatan aktuator konstan saat beban naik/turun dalam rentang kerja katup.",
+    "source": "SEULU6004-0 — Hydraulic Control Valves (UIM Komatsu)",
+    "tags": [
+      "compensated",
+      "ΔP constant",
+      "speed stability"
+    ],
+    "updatedAt": 1757252219542
+  },
+  {
+    "id": "H0030",
+    "term": "Priority Valve / Flow Divider",
+    "category": "Hydraulic",
+    "definition": "Katup yang mem-prioritaskan flow tetap ke sirkuit kritis dan sisanya ke sirkuit lain.",
+    "howItWorks": "Memastikan fungsi utama (mis. steering) selalu mendapat flow minimal. Sisa aliran dialihkan ke fungsi sekunder (loader work equipment).",
+    "source": "SEULU6004-0 — Hydraulic Control Valves (UIM Komatsu)",
+    "tags": [
+      "priority",
+      "flow divider",
+      "safety"
+    ],
+    "updatedAt": 1757252219542
+  },
+  {
+    "id": "H0031",
+    "term": "Shuttle Valve",
+    "category": "Hydraulic",
+    "definition": "Katup pemilih tekanan tertinggi dari dua sumber untuk dikirim ke jalur common.",
+    "howItWorks": "Dua input dihubungkan ke sebuah spool/poppet yang berpindah ke sisi tekanan lebih tinggi, sehingga port keluaran selalu menerima sinyal tertinggi. Umum untuk pilot load-sensing dan rem dinamis.",
+    "source": "SEULU6004-0 — Hydraulic Control Valves (UIM Komatsu)",
+    "tags": [
+      "shuttle",
+      "select-high"
+    ],
+    "updatedAt": 1757252219542
+  },
+  {
+    "id": "H0032",
+    "term": "Directional Control Valve (Open-Center)",
+    "category": "Hydraulic",
+    "definition": "DCV dengan jalur P→T terbuka pada posisi netral sehingga losses saat idle rendah.",
+    "howItWorks": "Saat netral, pompa mengalir bebas ke tank; saat diaktifkan, spool menghubungkan P ke port A/B sekaligus port lawan ke T. Membutuhkan relief sebagai proteksi karena pompa fixed akan membangun tekanan saat beban muncul.",
+    "source": "SEULU6004-0 — Hydraulic Control Valves (UIM Komatsu)",
+    "tags": [
+      "DCV",
+      "open-center",
+      "spool"
+    ],
+    "updatedAt": 1757252219542
+  },
+  {
+    "id": "H0033",
+    "term": "Directional Control Valve (Closed-Center)",
+    "category": "Hydraulic",
+    "definition": "DCV dengan semua port tertutup saat netral; umum pada sistem dengan variable displacement pump.",
+    "howItWorks": "Pompa menyesuaikan displacement untuk menjaga tekanan standby. Keuntungan: efisiensi dan kemampuan multi fungsi yang baik, khususnya bila dipadukan dengan load-sensing/pressure-compensation.",
+    "source": "SEULU6004-0 — Hydraulic Control Valves (UIM Komatsu)",
+    "tags": [
+      "DCV",
+      "closed-center",
+      "variable pump"
+    ],
+    "updatedAt": 1757252219542
+  },
+  {
+    "id": "H0034",
+    "term": "Float Position (DCV)",
+    "category": "Hydraulic",
+    "definition": "Posisi katup yang menghubungkan kedua sisi aktuator ke tank sehingga komponen dapat bergerak bebas mengikuti kontur.",
+    "howItWorks": "Sering dipakai pada bucket/arm untuk mengikuti permukaan tanah tanpa gaya angkat/turun aktif. Memerlukan desain internal agar tidak terjadi kavitasi saat beban berubah.",
+    "source": "SEULU6004-0 — Hydraulic Control Valves (UIM Komatsu)",
+    "tags": [
+      "float",
+      "DCV",
+      "contour-follow"
+    ],
+    "updatedAt": 1757252219542
+  },
+  {
+    "id": "H0035",
+    "term": "Detent Mechanism",
+    "category": "Hydraulic",
+    "definition": "Mekanisme pengunci posisi spool pada titik tertentu (mis. float/continuous).",
+    "howItWorks": "Menggunakan bola/peker pegas atau aktuator magnet untuk menahan spool pada posisi kerja tanpa ditahan operator. Dilengkapi pelepas otomatis saat tekanan balik/akhir stroke tercapai demi keselamatan.",
+    "source": "SEULU6004-0 — Hydraulic Control Valves (UIM Komatsu)",
+    "tags": [
+      "detent",
+      "spool",
+      "operator aid"
+    ],
+    "updatedAt": 1757252219542
+  },
+  {
+    "id": "H0036",
+    "term": "Regeneration Circuit (Cylinder Regen)",
+    "category": "Hydraulic",
+    "definition": "Konfigurasi yang mengalirkan oli dari sisi rod ke sisi piston untuk menaikkan kecepatan gerak dengan pengorbanan gaya.",
+    "howItWorks": "Saat regen aktif, flow total ke sisi piston = flow pompa + flow dari sisi rod. Karena efektif area mengecil, gaya turun tetapi kecepatan naik—berguna untuk gerak balik cepat tanpa beban berat.",
+    "source": "SEULU6004-0 — Hydraulic Control Valves (UIM Komatsu)",
+    "tags": [
+      "regeneration",
+      "speed",
+      "cylinder"
+    ],
+    "updatedAt": 1757252219542
+  },
+  {
+    "id": "H0037",
+    "term": "Meter-In vs Meter-Out Throttling",
+    "category": "Hydraulic",
+    "definition": "Dua strategi pembatasan debit untuk mengontrol kecepatan dan stabilitas aktuator.",
+    "howItWorks": "Meter-in cocok untuk beban resistif; meter-out lebih stabil pada beban overrunning karena mengontrol pelepasan energi beban. Pemilihan tergantung dinamika beban dan kebutuhan kontrol.",
+    "source": "SEULU6004-0 — Hydraulic Control Valves (UIM Komatsu)",
+    "tags": [
+      "meter-in",
+      "meter-out",
+      "stability"
+    ],
+    "updatedAt": 1757252219542
+  },
+  {
+    "id": "H0038",
+    "term": "Power Beyond (PB) Port",
+    "category": "Hydraulic",
+    "definition": "Port yang meneruskan flow tekanan ke valve stack berikutnya saat valve saat ini tidak menggunakan flow.",
+    "howItWorks": "Memungkinkan konfigurasi modular/tandem. PB membawa tekanan supply terisolasi dari return, sehingga downstream masih mendapat pasokan meski upstream netral.",
+    "source": "SEULU6004-0 — Hydraulic Control Valves (UIM Komatsu)",
+    "tags": [
+      "power beyond",
+      "stack",
+      "tandem"
+    ],
+    "updatedAt": 1757252219542
+  },
+  {
+    "id": "H0039",
+    "term": "Aeration",
+    "category": "Hydraulic",
+    "definition": "Masuknya udara ke dalam oli sehingga meningkatkan kompresibilitas dan membentuk foam.",
+    "howItWorks": "Udara masuk lewat kebocoran sisi hisap, seal rusak, atau oli kembali yang turbulen di tank. Aeration menyebabkan respon lambat, noise, oksidasi oli, dan memperparah kavitasi. Pencegahan: perbaiki kebocoran hisap, jaga level oli, dan gunakan breather yang baik.",
+    "source": "SEULU6013-0 — Term for Hydraulic Work Equipment (UIM Komatsu)",
+    "tags": [
+      "aeration",
+      "foam",
+      "air"
+    ],
+    "updatedAt": 1757252219542
+  },
+  {
+    "id": "H0040",
+    "term": "Cavitation",
+    "category": "Hydraulic",
+    "definition": "Pembentukan gelembung uap saat tekanan lokal turun di bawah vapor pressure dan kemudian kolaps di area tekanan tinggi.",
+    "howItWorks": "Terjadi pada inlet pump/orifice sempit. Kolaps gelembung menghasilkan micro-jet yang mengikis permukaan (erosion), meningkatkan noise dan keausan. Pencegahan: kurangi rugi hisap, viskositas sesuai, hindari rpm berlebih.",
+    "source": "SEULU6013-0 — Term for Hydraulic Work Equipment (UIM Komatsu)",
+    "tags": [
+      "cavitation",
+      "erosion",
+      "vapor pressure"
+    ],
+    "updatedAt": 1757252219542
+  },
+  {
+    "id": "H0041",
+    "term": "Pressure Drop",
+    "category": "Hydraulic",
+    "definition": "Penurunan tekanan sepanjang komponen/pipa akibat gesekan dan orifice.",
+    "howItWorks": "Dipengaruhi debit, viskositas, panjang/diameter hose, dan fitting. Tekanan jatuh yang besar menurunkan efisiensi dan dapat memicu kavitasi di hulu orifice.",
+    "source": "SEULU6013-0 — Term for Hydraulic Work Equipment (UIM Komatsu)",
+    "tags": [
+      "ΔP",
+      "losses",
+      "hose"
+    ],
+    "updatedAt": 1757252219542
+  },
+  {
+    "id": "H0042",
+    "term": "Surge / Water Hammer",
+    "category": "Hydraulic",
+    "definition": "Lonjakan tekanan transien akibat perubahan aliran yang mendadak.",
+    "howItWorks": "Switching spool cepat atau beban berhenti tiba-tiba menghasilkan gelombang tekanan yang memantul. Gunakan anti-shock valve, orifice cushioning, dan prosedur operasi yang benar untuk mitigasi.",
+    "source": "SEULU6013-0 — Term for Hydraulic Work Equipment (UIM Komatsu)",
+    "tags": [
+      "surge",
+      "transient",
+      "water hammer"
+    ],
+    "updatedAt": 1757252219542
+  },
+  {
+    "id": "H0043",
+    "term": "Cracking Pressure (Relief)",
+    "category": "Hydraulic",
+    "definition": "Tekanan saat relief valve mulai membuka (awal aliran).",
+    "howItWorks": "Berbeda dari tekanan override, di mana aliran penuh tercapai. Pengaturan cracking mempengaruhi perlindungan awal pada lonjakan tekanan.",
+    "source": "SEULU6013-0 — Term for Hydraulic Work Equipment (UIM Komatsu)",
+    "tags": [
+      "relief",
+      "cracking",
+      "set"
+    ],
+    "updatedAt": 1757252219542
+  },
+  {
+    "id": "H0044",
+    "term": "Override Pressure (Relief)",
+    "category": "Hydraulic",
+    "definition": "Tekanan yang lebih tinggi dari set point saat debit melewati relief meningkat (karena losses internal).",
+    "howItWorks": "Karakteristik relief tidak vertikal; saat flow meningkat, tekanan naik melewati nilai setelan hingga stabil pada override tertentu. Perlu diperhitungkan pada sizing relief.",
+    "source": "SEULU6013-0 — Term for Hydraulic Work Equipment (UIM Komatsu)",
+    "tags": [
+      "override",
+      "relief",
+      "flow"
+    ],
+    "updatedAt": 1757252219542
+  },
+  {
+    "id": "H0045",
+    "term": "Neutral (Valve Position)",
+    "category": "Hydraulic",
+    "definition": "Posisi katup saat tidak ada perintah gerak (open-center/closed-center).",
+    "howItWorks": "Konfigurasi center mempengaruhi losses idle, respons, dan kebutuhan relief. Open-center: P→T terbuka; Closed-center: semua port tertutup.",
+    "source": "SEULU6013-0 — Term for Hydraulic Work Equipment (UIM Komatsu)",
+    "tags": [
+      "neutral",
+      "center",
+      "DCV"
+    ],
+    "updatedAt": 1757252219542
+  },
+  {
+    "id": "H0046",
+    "term": "Hold (Valve Position)",
+    "category": "Hydraulic",
+    "definition": "Posisi yang menahan aktuator tetap pada posisinya.",
+    "howItWorks": "Port-ports ditutup atau dilengkapi check sehingga oli terperangkap. Kebocoran internal menentukan seberapa lama posisi bertahan.",
+    "source": "SEULU6013-0 — Term for Hydraulic Work Equipment (UIM Komatsu)",
+    "tags": [
+      "hold",
+      "position",
+      "leakage"
+    ],
+    "updatedAt": 1757252219542
+  },
+  {
+    "id": "H0047",
+    "term": "Float (Valve Position)",
+    "category": "Hydraulic",
+    "definition": "Posisi yang menghubungkan kedua sisi aktuator ke tank agar bebas bergerak mengikuti kontur.",
+    "howItWorks": "Dipakai untuk fungsi leveling/ground following. Perlu perhatian anti-cavitation saat beban berubah cepat.",
+    "source": "SEULU6013-0 — Term for Hydraulic Work Equipment (UIM Komatsu)",
+    "tags": [
+      "float",
+      "free movement"
+    ],
+    "updatedAt": 1757252219542
+  },
+  {
+    "id": "H0048",
+    "term": "Single-Acting Cylinder",
+    "category": "Hydraulic",
+    "definition": "Silinder yang hanya diberi tekanan pada satu sisi; sisi lain kembali dengan beban/pegas.",
+    "howItWorks": "Sederhana dan hemat komponen, namun kendali arah terbatas. Cocok untuk aplikasi yang gaya baliknya disediakan gravitasi atau pegas.",
+    "source": "SEULU6013-0 — Term for Hydraulic Work Equipment (UIM Komatsu)",
+    "tags": [
+      "cylinder",
+      "single-acting"
+    ],
+    "updatedAt": 1757252219542
+  },
+  {
+    "id": "H0049",
+    "term": "Double-Acting Cylinder",
+    "category": "Hydraulic",
+    "definition": "Silinder yang diberi tekanan pada kedua sisi untuk kontrol gerak dua arah.",
+    "howItWorks": "Memberikan kontrol penuh angkat/turun. Perlu pengaturan kecepatan (meter-in/out) dan proteksi terhadap beban overrunning.",
+    "source": "SEULU6013-0 — Term for Hydraulic Work Equipment (UIM Komatsu)",
+    "tags": [
+      "cylinder",
+      "double-acting"
+    ],
+    "updatedAt": 1757252219542
+  },
+  {
+    "id": "H0050",
+    "term": "Differential Area (Cylinder)",
+    "category": "Hydraulic",
+    "definition": "Perbedaan area efektif sisi piston dan sisi rod yang menyebabkan kecepatan/gaya berbeda.",
+    "howItWorks": "Kecepatan maju dan mundur berbeda untuk flow sama. Perlu diperhitungkan dalam sizing kecepatan dan strategi kontrol (regen).",
+    "source": "SEULU6013-0 — Term for Hydraulic Work Equipment (UIM Komatsu)",
+    "tags": [
+      "area",
+      "rod",
+      "speed"
+    ],
+    "updatedAt": 1757252219542
+  },
+  {
+    "id": "H0051",
+    "term": "Effective Area",
+    "category": "Hydraulic",
+    "definition": "Luas penampang fluida yang menghasilkan gaya (A_piston atau A_rod).",
+    "howItWorks": "Gaya F = P × A. Kecepatan v = Q / A. Perubahan area mempengaruhi performa aktuator secara langsung.",
+    "source": "SEULU6013-0 — Term for Hydraulic Work Equipment (UIM Komatsu)",
+    "tags": [
+      "area",
+      "force",
+      "speed"
+    ],
+    "updatedAt": 1757252219542
+  },
+  {
+    "id": "H0052",
+    "term": "Cylinder Cushion",
+    "category": "Hydraulic",
+    "definition": "Fitur peredam di ujung stroke untuk mengurangi benturan mekanis.",
+    "howItWorks": "Orifice/needle internal memperlambat aliran keluar mendekati akhir stroke sehingga momentum redam sebelum mencapai end-cap.",
+    "source": "SEULU6013-0 — Term for Hydraulic Work Equipment (UIM Komatsu)",
+    "tags": [
+      "cushion",
+      "end stroke",
+      "damping"
+    ],
+    "updatedAt": 1757252219542
+  },
+  {
+    "id": "H0053",
+    "term": "Orifice",
+    "category": "Hydraulic",
+    "definition": "Pembatas aliran sederhana yang menghasilkan pressure drop terkontrol.",
+    "howItWorks": "Dipakai untuk throttle, cushioning, dan pembentukan sinyal diferensial tekanan pada sistem LS. Ukuran orifice menentukan ΔP dan flow.",
+    "source": "SEULU6013-0 — Term for Hydraulic Work Equipment (UIM Komatsu)",
+    "tags": [
+      "orifice",
+      "throttle",
+      "ΔP"
+    ],
+    "updatedAt": 1757252219542
+  },
+  {
+    "id": "H0054",
+    "term": "Spool Lap (Under/Zero/Over)",
+    "category": "Hydraulic",
+    "definition": "Hubungan tumpang tindih antara tepi spool dan port saat netral.",
+    "howItWorks": "Underlap: respons cepat tetapi kebocoran saat netral; Overlap: kebocoran kecil tetapi deadband besar; Zero-lap kompromi di antara keduanya.",
+    "source": "SEULU6013-0 — Term for Hydraulic Work Equipment (UIM Komatsu)",
+    "tags": [
+      "spool",
+      "lap",
+      "deadband"
+    ],
+    "updatedAt": 1757252219542
+  },
+  {
+    "id": "H0055",
+    "term": "Back Pressure",
+    "category": "Hydraulic",
+    "definition": "Tekanan pada jalur kembali (T) yang mempengaruhi kerja valve dan aktuator.",
+    "howItWorks": "Back pressure terlalu tinggi meningkatkan losses, memicu kavitasi pada meter-out, dan mempengaruhi cracking beberapa valve. Desain return harus rendah rugi.",
+    "source": "SEULU6013-0 — Term for Hydraulic Work Equipment (UIM Komatsu)",
+    "tags": [
+      "return",
+      "back pressure",
+      "loss"
+    ],
+    "updatedAt": 1757252219542
+  },
+  {
+    "id": "H0056",
+    "term": "Case Drain",
+    "category": "Hydraulic",
+    "definition": "Saluran pembuangan internal housing (umum pada piston/vane/motor).",
+    "howItWorks": "Mengembalikan kebocoran internal ke tank bertekanan rendah dan mendinginkan housing. Jalur harus bebas hambatan agar seal tidak rusak.",
+    "source": "SEULU6013-0 — Term for Hydraulic Work Equipment (UIM Komatsu)",
+    "tags": [
+      "case drain",
+      "cooling",
+      "seal"
+    ],
+    "updatedAt": 1757252219542
+  },
+  {
+    "id": "H0057",
+    "term": "Pilot Pressure",
+    "category": "Hydraulic",
+    "definition": "Tekanan kontrol kecil yang digunakan untuk menggerakkan valve utama atau mekanisme servo.",
+    "howItWorks": "Pilot mengurangi upaya operator dan memungkinkan kontrol jarak jauh yang presisi. Stabilitas membutuhkan relief dan filtrasi yang baik di sirkuit pilot.",
+    "source": "SEULU6013-0 — Term for Hydraulic Work Equipment (UIM Komatsu)",
+    "tags": [
+      "pilot",
+      "control",
+      "servo"
+    ],
+    "updatedAt": 1757252219542
+  },
+  {
+    "id": "H0058",
+    "term": "Load Sensing (LS)",
+    "category": "Hydraulic",
+    "definition": "Sistem yang menjaga selisih tekanan konstan pada orifice kontrol sehingga flow mengikuti beban.",
+    "howItWorks": "Tekanan setelah orifice dikirim balik ke compensator pompa/valve. ΔP konstan → kecepatan aktuator relatif stabil meski beban berubah.",
+    "source": "SEULU6013-0 — Term for Hydraulic Work Equipment (UIM Komatsu)",
+    "tags": [
+      "LS",
+      "compensation",
+      "ΔP"
+    ],
+    "updatedAt": 1757252219542
+  },
+  {
+    "id": "H0059",
+    "term": "Pressure Compensator",
+    "category": "Hydraulic",
+    "definition": "Elemen yang memodulasi bukaan berdasarkan selisih tekanan untuk menjaga flow konstan.",
+    "howItWorks": "Dapat berada di pompa (displacement control) atau pada valve (post/pre-comp). Penting untuk multi-fungsi agar fungsi tidak saling berebut flow.",
+    "source": "SEULU6013-0 — Term for Hydraulic Work Equipment (UIM Komatsu)",
+    "tags": [
+      "compensator",
+      "flow share"
+    ],
+    "updatedAt": 1757252219542
+  },
+  {
+    "id": "H0060",
+    "term": "Flow Sharing",
+    "category": "Hydraulic",
+    "definition": "Fitur distribusi flow proporsional saat supply tidak cukup untuk semua fungsi.",
+    "howItWorks": "Menjaga semua fungsi tetap bergerak dengan kecepatan tereduksi secara proporsional. Mencegah satu fungsi 'kelaparan' total saat beban lain berat.",
+    "source": "SEULU6013-0 — Term for Hydraulic Work Equipment (UIM Komatsu)",
+    "tags": [
+      "sharing",
+      "multi-function"
+    ],
+    "updatedAt": 1757252219542
+  },
+  {
+    "id": "H0061",
+    "term": "Relief Valve Set Pressure",
+    "category": "Hydraulic",
+    "definition": "Nilai target proteksi tekanan maksimum sistem/section.",
+    "howItWorks": "Diukur pada temperatur kerja dengan flow referensi. Terlalu tinggi berisiko merusak komponen; terlalu rendah mengurangi performa.",
+    "source": "SEULU6013-0 — Term for Hydraulic Work Equipment (UIM Komatsu)",
+    "tags": [
+      "relief",
+      "set",
+      "test"
+    ],
+    "updatedAt": 1757252219542
+  },
+  {
+    "id": "H0062",
+    "term": "Filtration Rating (Micron / Beta Ratio)",
+    "category": "Hydraulic",
+    "definition": "Ukuran penyaringan dan efisiensi (βx = upstream/downstream).",
+    "howItWorks": "β tinggi berarti efisiensi penangkapan partikel lebih baik. Pengawasan differential pressure membantu menentukan waktu penggantian elemen filter.",
+    "source": "SEULU6013-0 — Term for Hydraulic Work Equipment (UIM Komatsu)",
+    "tags": [
+      "filter",
+      "micron",
+      "beta"
+    ],
+    "updatedAt": 1757252219542
+  },
+  {
+    "id": "H0063",
+    "term": "ISO Cleanliness Code",
+    "category": "Hydraulic",
+    "definition": "Kode kebersihan oli (ISO 4406) yang menyatakan jumlah partikel per 1 ml pada ukuran tertentu.",
+    "howItWorks": "Target kebersihan ditentukan oleh pabrikan. Menjaga kode rendah memperpanjang usia valve/pompa dan mengurangi kegagalan.",
+    "source": "SEULU6013-0 — Term for Hydraulic Work Equipment (UIM Komatsu)",
+    "tags": [
+      "ISO 4406",
+      "cleanliness"
+    ],
+    "updatedAt": 1757252219542
+  },
+  {
+    "id": "H0064",
+    "term": "Axial Piston Pump",
+    "category": "Hydraulic",
+    "definition": "Pompa piston dengan swash plate untuk mengubah displacement.",
+    "howItWorks": "Digunakan bersama DCV closed-center dan LS. Mampu efisiensi tinggi serta kontrol power yang baik.",
+    "source": "SEULU6013-0 — Term for Hydraulic Work Equipment (UIM Komatsu)",
+    "tags": [
+      "axial piston",
+      "variable"
+    ],
+    "updatedAt": 1757252219542
+  },
+  {
+    "id": "H0065",
+    "term": "Hydraulic Lock",
+    "category": "Hydraulic",
+    "definition": "Kondisi ketika fluida terperangkap sehingga aktuator tidak dapat bergerak.",
+    "howItWorks": "Terjadi saat kedua port tertutup dan tidak ada make-up. Bisa menyebabkan tekanan termal naik saat temperatur meningkat—diatasi dengan thermal relief.",
+    "source": "SEULU6013-0 — Term for Hydraulic Work Equipment (UIM Komatsu)",
+    "tags": [
+      "lock",
+      "thermal relief"
+    ],
+    "updatedAt": 1757252219542
+  },
+  {
+    "id": "H0066",
+    "term": "Bleeding / Air Bleed",
+    "category": "Hydraulic",
+    "definition": "Prosedur pembuangan udara dari sirkuit.",
+    "howItWorks": "Dilakukan setelah servis/assembly untuk memulihkan respons dan mencegah kavitasi lokal. Biasanya melalui port bleeder atau gerakan rendah bertahap.",
+    "source": "SEULU6013-0 — Term for Hydraulic Work Equipment (UIM Komatsu)",
+    "tags": [
+      "bleed",
+      "commissioning"
+    ],
+    "updatedAt": 1757252219542
+  },
+  {
+    "id": "H0067",
+    "term": "Side Plate Scoring",
+    "category": "Hydraulic",
+    "definition": "Goresan memanjang pada permukaan side plate akibat film pelumas rusak dan partikel keras.",
+    "howItWorks": "Penyebab umum: kontaminasi partikel besar, running dry saat start, atau tekanan berlebih yang meningkatkan gaya kontak. Efek: penurunan efisiensi volumetris dan kenaikan suhu. Tindakan: flush sistem, ganti filter, periksa relief dan prosedur priming.",
+    "source": "SEULU6016-0 — Failure Analysis of Gear Pump (SA series) (UIM Komatsu)",
+    "tags": [
+      "failure",
+      "scoring",
+      "contamination"
+    ],
+    "updatedAt": 1757252219542
+  },
+  {
+    "id": "H0068",
+    "term": "Gear Tooth Scuffing",
+    "category": "Hydraulic",
+    "definition": "Permukaan gigi terbakar (smearing) karena gesekan tinggi dan pelumasan boundary.",
+    "howItWorks": "Terjadi saat viskositas terlalu rendah/temperatur tinggi, atau beban melebihi kemampuan film. Ditandai perubahan warna, permukaan kusam, dan noise. Perbaikan: pilih oli sesuai, cek pendinginan, dan setel relief.",
+    "source": "SEULU6016-0 — Failure Analysis of Gear Pump (SA series) (UIM Komatsu)",
+    "tags": [
+      "scuffing",
+      "lubrication",
+      "heat"
+    ],
+    "updatedAt": 1757252219542
+  },
+  {
+    "id": "H0069",
+    "term": "Pitting / Spalling",
+    "category": "Hydraulic",
+    "definition": "Lubang-lubang kecil (pitting) hingga pengelupasan (spalling) pada gigi akibat kelelahan permukaan.",
+    "howItWorks": "Dipicu oleh beban siklik tinggi dan kontaminasi halus yang meningkatkan tegangan kontak. Memicu vibrasi/noise dan cepat berkembang jika tidak ditangani.",
+    "source": "SEULU6016-0 — Failure Analysis of Gear Pump (SA series) (UIM Komatsu)",
+    "tags": [
+      "pitting",
+      "fatigue",
+      "contact stress"
+    ],
+    "updatedAt": 1757252219542
+  },
+  {
+    "id": "H0070",
+    "term": "Housing Wear / Ovalization",
+    "category": "Hydraulic",
+    "definition": "Keausan pada housing yang memperbesar tip clearance sehingga kebocoran meningkat.",
+    "howItWorks": "Penyebab: kontaminasi, kavitasi, atau misalignment. Gejala: penurunan tekanan maksimum, kenaikan temperatur, dan suara mendengung.",
+    "source": "SEULU6016-0 — Failure Analysis of Gear Pump (SA series) (UIM Komatsu)",
+    "tags": [
+      "housing",
+      "clearance",
+      "leakage"
+    ],
+    "updatedAt": 1757252219542
+  },
+  {
+    "id": "H0071",
+    "term": "Clogged Suction Strainer",
+    "category": "Hydraulic",
+    "definition": "Saringan hisap tersumbat menyebabkan pasokan oli kurang dan kavitasi.",
+    "howItWorks": "Level oli rendah, oli kental saat dingin, atau interval servis terlambat mempercepat penyumbatan. Tindakan: bersihkan/ganti strainer, verifikasi level oli dan jadwal perawatan.",
+    "source": "SEULU6016-0 — Failure Analysis of Gear Pump (SA series) (UIM Komatsu)",
+    "tags": [
+      "strainer",
+      "suction",
+      "maintenance"
+    ],
+    "updatedAt": 1757252219542
+  },
+  {
+    "id": "H0072",
+    "term": "Breather Clogged / Tank Pressure Issues",
+    "category": "Hydraulic",
+    "definition": "Breather tersumbat menimbulkan vakum/tekanan abnormal di tank yang mengganggu aliran hisap/return.",
+    "howItWorks": "Vakum memperburuk kavitasi di inlet; tekanan berlebih dapat mendorong oli keluar seal. Periksa elemen breather dan pastikan ratingnya sesuai lingkungan kerja berdebu.",
+    "source": "SEULU6016-0 — Failure Analysis of Gear Pump (SA series) (UIM Komatsu)",
+    "tags": [
+      "breather",
+      "vacuum",
+      "tank"
+    ],
+    "updatedAt": 1757252219542
+  },
+  {
+    "id": "H0073",
+    "term": "Suction Side Air Leak (Aeration)",
+    "category": "Hydraulic",
+    "definition": "Kebocoran mikro pada jalur hisap memasukkan udara tanpa kebocoran oli terlihat.",
+    "howItWorks": "Klem longgar, gasket keras, atau porositas casting dapat menjadi sumber aerasi. Gejala: foam di tank, respons lambat, dan noise tinggi. Uji dengan grease/oli di sambungan untuk melihat perubahan noise sebagai indikasi.",
+    "source": "SEULU6016-0 — Failure Analysis of Gear Pump (SA series) (UIM Komatsu)",
+    "tags": [
+      "aeration",
+      "suction leak"
+    ],
+    "updatedAt": 1757252219542
+  },
+  {
+    "id": "H0074",
+    "term": "Cavitation Erosion",
+    "category": "Hydraulic",
+    "definition": "Kerusakan erosi seperti 'peppery' pada side plate/housing akibat kolaps gelembung.",
+    "howItWorks": "Biasanya terlokalisir dekat inlet atau transisi porting. Penanganan fokus pada mengurangi kerugian hisap, menurunkan rpm, dan memastikan viskositas tepat.",
+    "source": "SEULU6016-0 — Failure Analysis of Gear Pump (SA series) (UIM Komatsu)",
+    "tags": [
+      "cavitation",
+      "erosion"
+    ],
+    "updatedAt": 1757252219542
+  },
+  {
+    "id": "H0075",
+    "term": "Overpressure Exposure",
+    "category": "Hydraulic",
+    "definition": "Paparan tekanan melebihi rating menyebabkan deformasi side plate, retak housing, atau seal jebol.",
+    "howItWorks": "Sumber: relief macet tertutup, kesalahan test (deadhead), atau salah setel relief. Tindakan: verifikasi fungsi relief, gunakan gauge dan prosedur uji yang benar.",
+    "source": "SEULU6016-0 — Failure Analysis of Gear Pump (SA series) (UIM Komatsu)",
+    "tags": [
+      "overpressure",
+      "relief",
+      "testing"
+    ],
+    "updatedAt": 1757252219542
+  },
+  {
+    "id": "H0076",
+    "term": "Overtemperature / Low Viscosity",
+    "category": "Hydraulic",
+    "definition": "Temperatur oli tinggi menurunkan viskositas sehingga kebocoran naik dan film pelumas gagal.",
+    "howItWorks": "Gejala: penurunan tekanan saat panas, noise menurun sementara lalu meningkat saat kerusakan terjadi. Perbaikan: cek pendingin oli, kurangi throttling berlebih, pastikan kapasitas heat rejection cukup.",
+    "source": "SEULU6016-0 — Failure Analysis of Gear Pump (SA series) (UIM Komatsu)",
+    "tags": [
+      "temperature",
+      "viscosity",
+      "cooling"
+    ],
+    "updatedAt": 1757252219542
+  },
+  {
+    "id": "H0077",
+    "term": "Fine Contamination (Abrasive Wear)",
+    "category": "Hydraulic",
+    "definition": "Partikel halus mempercepat keausan permukaan dan memperpendek umur pompa.",
+    "howItWorks": "Sumber: degradasi seal, debu lingkungan, atau proses overhaul yang kurang bersih. Kontrol dengan filtrasi β tinggi, monitoring ISO code, dan prosedur kebersihan.",
+    "source": "SEULU6016-0 — Failure Analysis of Gear Pump (SA series) (UIM Komatsu)",
+    "tags": [
+      "contamination",
+      "filter",
+      "ISO code"
+    ],
+    "updatedAt": 1757252219542
+  },
+  {
+    "id": "H0078",
+    "term": "Large Particle Ingestion",
+    "category": "Hydraulic",
+    "definition": "Masuknya partikel besar menyebabkan scoring instan dan macetnya gear.",
+    "howItWorks": "Penutup tank terbuka, saringan hilang, atau kerusakan komponen upstream adalah penyebab umum. Investigasi akar penyebab dan flush menyeluruh diperlukan.",
+    "source": "SEULU6016-0 — Failure Analysis of Gear Pump (SA series) (UIM Komatsu)",
+    "tags": [
+      "particles",
+      "scoring",
+      "root cause"
+    ],
+    "updatedAt": 1757252219542
+  },
+  {
+    "id": "H0079",
+    "term": "Operation Without Proper Load / Churning Heat",
+    "category": "Hydraulic",
+    "definition": "Sirkulasi oli tanpa kerja efektif melalui throttling menghasilkan panas berlebih.",
+    "howItWorks": "Pompa fixed yang terus mendorong flow melintasi orifice/relief menghasilkan losses besar → overheating. Optimasi dengan unloader/LS atau setting yang benar.",
+    "source": "SEULU6016-0 — Failure Analysis of Gear Pump (SA series) (UIM Komatsu)",
+    "tags": [
+      "throttling",
+      "heat",
+      "efficiency"
+    ],
+    "updatedAt": 1757252219542
+  },
+  {
+    "id": "H0080",
+    "term": "Relief Valve Stuck Closed",
+    "category": "Hydraulic",
+    "definition": "Relief macet tertutup meningkatkan risiko kerusakan katastropik pada pompa dan hose.",
+    "howItWorks": "Kontaminasi atau korosi dapat menghambat gerak poppet/spool. Tanda: lonjakan tekanan cepat saat aktuasi. Periksa kebersihan dan lakukan servis relief.",
+    "source": "SEULU6016-0 — Failure Analysis of Gear Pump (SA series) (UIM Komatsu)",
+    "tags": [
+      "relief",
+      "stuck",
+      "catastrophic"
+    ],
+    "updatedAt": 1757252219542
+  },
+  {
+    "id": "H0081",
+    "term": "Relief Valve Stuck Open",
+    "category": "Hydraulic",
+    "definition": "Relief macet terbuka membuat sistem tidak mencapai tekanan target.",
+    "howItWorks": "Gejala: aktuator lemah, oil heating karena sirkulasi ke tank. Diagnostik: ukur flow dan tekanan pada beberapa titik untuk memastikan kebocoran melalui relief.",
+    "source": "SEULU6016-0 — Failure Analysis of Gear Pump (SA series) (UIM Komatsu)",
+    "tags": [
+      "relief",
+      "low pressure",
+      "diagnosis"
+    ],
+    "updatedAt": 1757252219542
+  },
+  {
+    "id": "H0082",
+    "term": "Incorrect Oil Viscosity / Grade",
+    "category": "Hydraulic",
+    "definition": "Pemilihan oli yang tidak sesuai lingkungan operasi memperpendek umur pompa.",
+    "howItWorks": "Oli terlalu encer pada suhu kerja tinggi meningkatkan kebocoran; terlalu kental saat dingin memicu kavitasi dan torsi start tinggi. Ikuti rekomendasi pabrikan untuk rentang suhu lokasi kerja.",
+    "source": "SEULU6016-0 — Failure Analysis of Gear Pump (SA series) (UIM Komatsu)",
+    "tags": [
+      "oil grade",
+      "viscosity",
+      "environment"
+    ],
+    "updatedAt": 1757252219542
+  },
+  {
+    "id": "H0083",
+    "term": "Shaft Coupling Misalignment",
+    "category": "Hydraulic",
+    "definition": "Kopling poros tidak selaras menimbulkan beban radial/aksial berlebih pada bearing.",
+    "howItWorks": "Mengakibatkan vibrasi, kebocoran seal, dan keausan abnormal. Lakukan alignment presisi setelah servis dengan alat ukur yang tepat.",
+    "source": "SEULU6016-0 — Failure Analysis of Gear Pump (SA series) (UIM Komatsu)",
+    "tags": [
+      "alignment",
+      "bearing",
+      "seal"
+    ],
+    "updatedAt": 1757252219542
+  },
+  {
+    "id": "H0084",
+    "term": "Shaft Seal Failure",
+    "category": "Hydraulic",
+    "definition": "Kegagalan seal poros akibat tekanan case, panas, atau keausan bibir seal.",
+    "howItWorks": "Case pressure tinggi (akibat line tersumbat) mendorong oli melewati seal. Panas dan misalignment mempercepat degradasi elastomer. Pastikan drain balik bebas hambatan dan temperatur terkontrol.",
+    "source": "SEULU6016-0 — Failure Analysis of Gear Pump (SA series) (UIM Komatsu)",
+    "tags": [
+      "shaft seal",
+      "case pressure",
+      "leak"
+    ],
+    "updatedAt": 1757252219542
+  },
+  {
+    "id": "H0085",
+    "term": "Noise & Vibration Diagnostics",
+    "category": "Hydraulic",
+    "definition": "Analisis pola suara/gelombang membantu identifikasi kavitasi, aerasi, atau keausan.",
+    "howItWorks": "Kavitasi: nada tinggi berdesis dan 'kerikil' di inlet; aerasi: bunyi beriak/foam; keausan: dengung monotone meningkat dengan beban. Gunakan stetoskop mekanik/analisis vibrasi untuk lokalisasi.",
+    "source": "SEULU6016-0 — Failure Analysis of Gear Pump (SA series) (UIM Komatsu)",
+    "tags": [
+      "diagnostic",
+      "noise",
+      "vibration"
+    ],
+    "updatedAt": 1757252219542
+  },
+  {
+    "id": "H0086",
+    "term": "Low Flow / Slow Actuator",
+    "category": "Hydraulic",
+    "definition": "Gejala umum yang disebabkan gabungan kebocoran internal, sumbatan, atau setelan valve salah.",
+    "howItWorks": "Lakukan verifikasi berurutan: kondisi oli/temperatur, strainer/breather, tekanan sebelum/sesudah filter, setelan relief, dan internal leakage check. Gunakan flowmeter untuk memisahkan masalah pompa vs downstream.",
+    "source": "SEULU6016-0 — Failure Analysis of Gear Pump (SA series) (UIM Komatsu)",
+    "tags": [
+      "symptom",
+      "low flow",
+      "troubleshoot"
+    ],
+    "updatedAt": 1757252219542
+  }
+]
